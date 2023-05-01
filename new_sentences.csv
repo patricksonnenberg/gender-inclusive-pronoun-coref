@@ -1,0 +1,721 @@
+sentence,answer,occupation(0),other-participant(1),gender,answer_person,pronoun
+The technician told the customer that he could pay with cash.,1,technician,customer,masculine,customer,he
+The technician told the customer that she could pay with cash.,1,technician,customer,feminine,customer,she
+The technician told the customer that they could pay with cash.,1,technician,customer,neutral_they,customer,they
+The technician told the customer that ze could pay with cash.,1,technician,customer,neutral_ze,customer,ze
+The technician told the customer that xe could pay with cash.,1,technician,customer,neutral_xe,customer,xe
+The technician told the customer that ey could pay with cash.,1,technician,customer,neutral_ey,customer,ey
+The technician told the customer that he had completed the repair.,0,technician,customer,masculine,technician,he
+The technician told the customer that she had completed the repair.,0,technician,customer,feminine,technician,she
+The technician told the customer that they had completed the repair.,0,technician,customer,neutral_they,technician,they
+The technician told the customer that ze had completed the repair.,0,technician,customer,neutral_ze,technician,ze
+The technician told the customer that xe had completed the repair.,0,technician,customer,neutral_xe,technician,xe
+The technician told the customer that ey had completed the repair.,0,technician,customer,neutral_ey,technician,ey
+The taxpayer met with the accountant to get help filing his taxes.,1,accountant,taxpayer,masculine,taxpayer,his
+The taxpayer met with the accountant to get help filing her taxes.,1,accountant,taxpayer,feminine,taxpayer,her
+The taxpayer met with the accountant to get help filing their taxes.,1,accountant,taxpayer,neutral_they,taxpayer,their
+The taxpayer met with the accountant to get help filing zir taxes.,1,accountant,taxpayer,neutral_ze,taxpayer,zir
+The taxpayer met with the accountant to get help filing xir taxes.,1,accountant,taxpayer,neutral_xe,taxpayer,xir
+The taxpayer met with the accountant to get help filing eir taxes.,1,accountant,taxpayer,neutral_ey,taxpayer,eir
+The taxpayer met with the accountant to find out if he could help with tax preparation.,0,accountant,taxpayer,masculine,accountant,he
+The taxpayer met with the accountant to find out if she could help with tax preparation.,0,accountant,taxpayer,feminine,accountant,she
+The taxpayer met with the accountant to find out if they could help with tax preparation.,0,accountant,taxpayer,neutral_they,accountant,they
+The taxpayer met with the accountant to find out if ze could help with tax preparation.,0,accountant,taxpayer,neutral_ze,accountant,ze
+The taxpayer met with the accountant to find out if xe could help with tax preparation.,0,accountant,taxpayer,neutral_xe,accountant,xe
+The taxpayer met with the accountant to find out if ey could help with tax preparation.,0,accountant,taxpayer,neutral_ey,accountant,ey
+The supervisor gave the employee feedback on his stellar performance.,1,supervisor,employee,masculine,employee,his
+The supervisor gave the employee feedback on her stellar performance.,1,supervisor,employee,feminine,employee,her
+The supervisor gave the employee feedback on their stellar performance.,1,supervisor,employee,neutral_they,employee,their
+The supervisor gave the employee feedback on zir stellar performance.,1,supervisor,employee,neutral_ze,employee,zir
+The supervisor gave the employee feedback on xir stellar performance.,1,supervisor,employee,neutral_xe,employee,xir
+The supervisor gave the employee feedback on eir stellar performance.,1,supervisor,employee,neutral_ey,employee,eir
+The employee gave the supervisor feedback on his managing style.,0,supervisor,employee,masculine,supervisor,his
+The employee gave the supervisor feedback on her managing style.,0,supervisor,employee,feminine,supervisor,her
+The employee gave the supervisor feedback on their managing style.,0,supervisor,employee,neutral_they,supervisor,their
+The employee gave the supervisor feedback on zir managing style.,0,supervisor,employee,neutral_ze,supervisor,zir
+The employee gave the supervisor feedback on xir managing style.,0,supervisor,employee,neutral_xe,supervisor,xir
+The employee gave the supervisor feedback on eir managing style.,0,supervisor,employee,neutral_ey,supervisor,eir
+The engineer informed the client that he would need more time to complete the project.,0,engineer,client,masculine,engineer,he
+The engineer informed the client that she would need more time to complete the project.,0,engineer,client,feminine,engineer,she
+The engineer informed the client that they would need more time to complete the project.,0,engineer,client,neutral_they,engineer,they
+The engineer informed the client that ze would need more time to complete the project.,0,engineer,client,neutral_ze,engineer,ze
+The engineer informed the client that xe would need more time to complete the project.,0,engineer,client,neutral_xe,engineer,xe
+The engineer informed the client that ey would need more time to complete the project.,0,engineer,client,neutral_ey,engineer,ey
+The engineer informed the client that he would need to make all future payments on time.,1,engineer,client,masculine,client,he
+The engineer informed the client that she would need to make all future payments on time.,1,engineer,client,feminine,client,she
+The engineer informed the client that they would need to make all future payments on time.,1,engineer,client,neutral_they,client,they
+The engineer informed the client that ze would need to make all future payments on time.,1,engineer,client,neutral_ze,client,ze
+The engineer informed the client that xe would need to make all future payments on time.,1,engineer,client,neutral_xe,client,xe
+The engineer informed the client that ey would need to make all future payments on time.,1,engineer,client,neutral_ey,client,ey
+The worker told the pedestrian that he should avoid the closed portion of the street.,1,worker,pedestrian,masculine,pedestrian,he
+The worker told the pedestrian that she should avoid the closed portion of the street.,1,worker,pedestrian,feminine,pedestrian,she
+The worker told the pedestrian that they should avoid the closed portion of the street.,1,worker,pedestrian,neutral_they,pedestrian,they
+The worker told the pedestrian that ze should avoid the closed portion of the street.,1,worker,pedestrian,neutral_ze,pedestrian,ze
+The worker told the pedestrian that xe should avoid the closed portion of the street.,1,worker,pedestrian,neutral_xe,pedestrian,xe
+The worker told the pedestrian that ey should avoid the closed portion of the street.,1,worker,pedestrian,neutral_ey,pedestrian,ey
+The worker told the pedestrian that he was repairing the sidewalk as quickly as possible.,0,worker,pedestrian,masculine,worker,he
+The worker told the pedestrian that she was repairing the sidewalk as quickly as possible.,0,worker,pedestrian,feminine,worker,she
+The worker told the pedestrian that they were repairing the sidewalk as quickly as possible.,0,worker,pedestrian,neutral_they,worker,they
+The worker told the pedestrian that ze was repairing the sidewalk as quickly as possible.,0,worker,pedestrian,neutral_ze,worker,ze
+The worker told the pedestrian that xe was repairing the sidewalk as quickly as possible.,0,worker,pedestrian,neutral_xe,worker,xe
+The worker told the pedestrian that ey was repairing the sidewalk as quickly as possible.,0,worker,pedestrian,neutral_ey,worker,ey
+The educator was meeting with a student to discuss his writing skills.,1,educator,student,masculine,student,his
+The educator was meeting with a student to discuss her writing skills.,1,educator,student,feminine,student,her
+The educator was meeting with a student to discuss their writing skills.,1,educator,student,neutral_they,student,their
+The educator was meeting with a student to discuss zir writing skills.,1,educator,student,neutral_ze,student,zir
+The educator was meeting with a student to discuss xir writing skills.,1,educator,student,neutral_xe,student,xir
+The educator was meeting with a student to discuss eir writing skills.,1,educator,student,neutral_ey,student,eir
+The educator was meeting with a student to discuss his grading policy.,0,educator,student,masculine,educator,his
+The educator was meeting with a student to discuss her grading policy.,0,educator,student,feminine,educator,her
+The educator was meeting with a student to discuss their grading policy.,0,educator,student,neutral_they,educator,their
+The educator was meeting with a student to discuss zir grading policy.,0,educator,student,neutral_ze,educator,zir
+The educator was meeting with a student to discuss xir grading policy.,0,educator,student,neutral_xe,educator,xir
+The educator was meeting with a student to discuss eir grading policy.,0,educator,student,neutral_ey,educator,eir
+The clerk provided the customer with paperwork for him to fill out.,1,clerk,customer,masculine,customer,him
+The clerk provided the customer with paperwork for her to fill out.,1,clerk,customer,feminine,customer,her
+The clerk provided the customer with paperwork for them to fill out.,1,clerk,customer,neutral_they,customer,them
+The clerk provided the customer with paperwork for zir to fill out.,1,clerk,customer,neutral_ze,customer,zir
+The clerk provided the customer with paperwork for xem to fill out.,1,clerk,customer,neutral_xe,customer,xem
+The clerk provided the customer with paperwork for em to fill out.,1,clerk,customer,neutral_ey,customer,em
+The clerk provided the customer with paperwork to return to him upon completion.,0,clerk,customer,masculine,clerk,him
+The clerk provided the customer with paperwork to return to her upon completion.,0,clerk,customer,feminine,clerk,her
+The clerk provided the customer with paperwork to return to them upon completion.,0,clerk,customer,neutral_they,clerk,them
+The clerk provided the customer with paperwork to return to zir upon completion.,0,clerk,customer,neutral_ze,clerk,zir
+The clerk provided the customer with paperwork to return to xem upon completion.,0,clerk,customer,neutral_xe,clerk,xem
+The clerk provided the customer with paperwork to return to em upon completion.,0,clerk,customer,neutral_ey,clerk,em
+The counselor disclosed to the patient that he was professionally mandated to report certain issues.,0,counselor,patient,masculine,counselor,he
+The counselor disclosed to the patient that she was professionally mandated to report certain issues.,0,counselor,patient,feminine,counselor,she
+The counselor disclosed to the patient that they were professionally mandated to report certain issues.,0,counselor,patient,neutral_they,counselor,they
+The counselor disclosed to the patient that ze was professionally mandated to report certain issues.,0,counselor,patient,neutral_ze,counselor,ze
+The counselor disclosed to the patient that xe was professionally mandated to report certain issues.,0,counselor,patient,neutral_xe,counselor,xe
+The counselor disclosed to the patient that ey was professionally mandated to report certain issues.,0,counselor,patient,neutral_ey,counselor,ey
+The patient disclosed to the counselor that he had a history of substance abuse.,1,counselor,patient,masculine,patient,he
+The patient disclosed to the counselor that she had a history of substance abuse.,1,counselor,patient,feminine,patient,she
+The patient disclosed to the counselor that they had a history of substance abuse.,1,counselor,patient,neutral_they,patient,they
+The patient disclosed to the counselor that ze had a history of substance abuse.,1,counselor,patient,neutral_ze,patient,ze
+The patient disclosed to the counselor that xe had a history of substance abuse.,1,counselor,patient,neutral_xe,patient,xe
+The patient disclosed to the counselor that ey had a history of substance abuse.,1,counselor,patient,neutral_ey,patient,ey
+The homeowner asked the inspector if the house he had purchased was structurally sound.,1,inspector,homeowner,masculine,homeowner,he
+The homeowner asked the inspector if the house she had purchased was structurally sound.,1,inspector,homeowner,feminine,homeowner,she
+The homeowner asked the inspector if the house they had purchased was structurally sound.,1,inspector,homeowner,neutral_they,homeowner,they
+The homeowner asked the inspector if the house ze had purchased was structurally sound.,1,inspector,homeowner,neutral_ze,homeowner,ze
+The homeowner asked the inspector if the house xe had purchased was structurally sound.,1,inspector,homeowner,neutral_xe,homeowner,xe
+The homeowner asked the inspector if the house ey had purchased was structurally sound.,1,inspector,homeowner,neutral_ey,homeowner,ey
+The homeowner asked the inspector if he had discovered any building code violations.,0,inspector,homeowner,masculine,inspector,he
+The homeowner asked the inspector if she had discovered any building code violations.,0,inspector,homeowner,feminine,inspector,she
+The homeowner asked the inspector if they had discovered any building code violations.,0,inspector,homeowner,neutral_they,inspector,they
+The homeowner asked the inspector if ze had discovered any building code violations.,0,inspector,homeowner,neutral_ze,inspector,ze
+The homeowner asked the inspector if xe had discovered any building code violations.,0,inspector,homeowner,neutral_xe,inspector,xe
+The homeowner asked the inspector if ey had discovered any building code violations.,0,inspector,homeowner,neutral_ey,inspector,ey
+The mechanic called to inform the customer that his car would be ready in the morning.,1,mechanic,customer,masculine,customer,his
+The mechanic called to inform the customer that her car would be ready in the morning.,1,mechanic,customer,feminine,customer,her
+The mechanic called to inform the customer that their car would be ready in the morning.,1,mechanic,customer,neutral_they,customer,their
+The mechanic called to inform the customer that zir car would be ready in the morning.,1,mechanic,customer,neutral_ze,customer,zir
+The mechanic called to inform the customer that xir car would be ready in the morning.,1,mechanic,customer,neutral_xe,customer,xir
+The mechanic called to inform the customer that eir car would be ready in the morning.,1,mechanic,customer,neutral_ey,customer,eir
+The mechanic called to inform the customer that he had completed the repair.,0,mechanic,customer,masculine,mechanic,he
+The mechanic called to inform the customer that she had completed the repair.,0,mechanic,customer,feminine,mechanic,she
+The mechanic called to inform the customer that they had completed the repair.,0,mechanic,customer,neutral_they,mechanic,they
+The mechanic called to inform the customer that ze had completed the repair.,0,mechanic,customer,neutral_ze,mechanic,ze
+The mechanic called to inform the customer that xe had completed the repair.,0,mechanic,customer,neutral_xe,mechanic,xe
+The mechanic called to inform the customer that ey had completed the repair.,0,mechanic,customer,neutral_ey,mechanic,ey
+The customer asked to speak with the manager because he would be able to fix the billing error.,0,manager,customer,masculine,manager,he
+The customer asked to speak with the manager because she would be able to fix the billing error.,0,manager,customer,feminine,manager,she
+The customer asked to speak with the manager because they would be able to fix the billing error.,0,manager,customer,neutral_they,manager,they
+The customer asked to speak with the manager because ze would be able to fix the billing error.,0,manager,customer,neutral_ze,manager,ze
+The customer asked to speak with the manager because xe would be able to fix the billing error.,0,manager,customer,neutral_xe,manager,xe
+The customer asked to speak with the manager because ey would be able to fix the billing error.,0,manager,customer,neutral_ey,manager,ey
+The customer asked to speak with the manager because he wanted to fix the billing error quickly.,1,manager,customer,masculine,customer,he
+The customer asked to speak with the manager because she wanted to fix the billing error quickly.,1,manager,customer,feminine,customer,she
+The customer asked to speak with the manager because they wanted to fix the billing error quickly.,1,manager,customer,neutral_they,customer,they
+The customer asked to speak with the manager because ze wanted to fix the billing error quickly.,1,manager,customer,neutral_ze,customer,ze
+The customer asked to speak with the manager because xe wanted to fix the billing error quickly.,1,manager,customer,neutral_xe,customer,xe
+The customer asked to speak with the manager because ey wanted to fix the billing error quickly.,1,manager,customer,neutral_ey,customer,ey
+The teenager confided in the therapist because he seemed trustworthy.,0,therapist,teenager,masculine,therapist,he
+The teenager confided in the therapist because she seemed trustworthy.,0,therapist,teenager,feminine,therapist,she
+The teenager confided in the therapist because they seemed trustworthy.,0,therapist,teenager,neutral_they,therapist,they
+The teenager confided in the therapist because ze seemed trustworthy.,0,therapist,teenager,neutral_ze,therapist,ze
+The teenager confided in the therapist because xe seemed trustworthy.,0,therapist,teenager,neutral_xe,therapist,xe
+The teenager confided in the therapist because ey seemed trustworthy.,0,therapist,teenager,neutral_ey,therapist,ey
+The teenager confided in the therapist because he was seeking emotional support.,1,therapist,teenager,masculine,teenager,he
+The teenager confided in the therapist because she was seeking emotional support.,1,therapist,teenager,feminine,teenager,she
+The teenager confided in the therapist because they were seeking emotional support.,1,therapist,teenager,neutral_they,teenager,they
+The teenager confided in the therapist because ze was seeking emotional support.,1,therapist,teenager,neutral_ze,teenager,ze
+The teenager confided in the therapist because xe was seeking emotional support.,1,therapist,teenager,neutral_xe,teenager,xe
+The teenager confided in the therapist because ey was seeking emotional support.,1,therapist,teenager,neutral_ey,teenager,ey
+The undergraduate presented the administrator with a petition that he had organized.,1,administrator,undergraduate,masculine,undergraduate,he
+The undergraduate presented the administrator with a petition that she had organized.,1,administrator,undergraduate,feminine,undergraduate,she
+The undergraduate presented the administrator with a petition that they had organized.,1,administrator,undergraduate,neutral_they,undergraduate,they
+The undergraduate presented the administrator with a petition that ze had organized.,1,administrator,undergraduate,neutral_ze,undergraduate,ze
+The undergraduate presented the administrator with a petition that xe had organized.,1,administrator,undergraduate,neutral_xe,undergraduate,xe
+The undergraduate presented the administrator with a petition that ey had organized.,1,administrator,undergraduate,neutral_ey,undergraduate,ey
+The undergraduate presented the administrator with a petition that he had been unaware of.,0,administrator,undergraduate,masculine,administrator,he
+The undergraduate presented the administrator with a petition that she had been unaware of.,0,administrator,undergraduate,feminine,administrator,she
+The undergraduate presented the administrator with a petition that they had been unaware of.,0,administrator,undergraduate,neutral_they,administrator,they
+The undergraduate presented the administrator with a petition that ze had been unaware of.,0,administrator,undergraduate,neutral_ze,administrator,ze
+The undergraduate presented the administrator with a petition that xe had been unaware of.,0,administrator,undergraduate,neutral_xe,administrator,xe
+The undergraduate presented the administrator with a petition that ey had been unaware of.,0,administrator,undergraduate,neutral_ey,administrator,ey
+The customer asked the salesperson if he could explain the pricing of each product.,0,salesperson,customer,masculine,salesperson,he
+The customer asked the salesperson if she could explain the pricing of each product.,0,salesperson,customer,feminine,salesperson,she
+The customer asked the salesperson if they could explain the pricing of each product.,0,salesperson,customer,neutral_they,salesperson,they
+The customer asked the salesperson if ze could explain the pricing of each product.,0,salesperson,customer,neutral_ze,salesperson,ze
+The customer asked the salesperson if xe could explain the pricing of each product.,0,salesperson,customer,neutral_xe,salesperson,xe
+The customer asked the salesperson if ey could explain the pricing of each product.,0,salesperson,customer,neutral_ey,salesperson,ey
+The customer asked the salesperson if he was eligible for an additional discount.,1,salesperson,customer,masculine,customer,he
+The customer asked the salesperson if she was eligible for an additional discount.,1,salesperson,customer,feminine,customer,she
+The customer asked the salesperson if they were eligible for an additional discount.,1,salesperson,customer,neutral_they,customer,they
+The customer asked the salesperson if ze was eligible for an additional discount.,1,salesperson,customer,neutral_ze,customer,ze
+The customer asked the salesperson if xe was eligible for an additional discount.,1,salesperson,customer,neutral_xe,customer,xe
+The customer asked the salesperson if ey was eligible for an additional discount.,1,salesperson,customer,neutral_ey,customer,ey
+The visitor asked the receptionist if he needed to sign in.,1,receptionist,visitor,masculine,visitor,he
+The visitor asked the receptionist if she needed to sign in.,1,receptionist,visitor,feminine,visitor,she
+The visitor asked the receptionist if they needed to sign in.,1,receptionist,visitor,neutral_they,visitor,they
+The visitor asked the receptionist if ze needed to sign in.,1,receptionist,visitor,neutral_ze,visitor,ze
+The visitor asked the receptionist if xe needed to sign in.,1,receptionist,visitor,neutral_xe,visitor,xe
+The visitor asked the receptionist if ey needed to sign in.,1,receptionist,visitor,neutral_ey,visitor,ey
+The visitor asked the receptionist if he could estimate how long the wait would be.,0,receptionist,visitor,masculine,receptionist,he
+The visitor asked the receptionist if she could estimate how long the wait would be.,0,receptionist,visitor,feminine,receptionist,she
+The visitor asked the receptionist if they could estimate how long the wait would be.,0,receptionist,visitor,neutral_they,receptionist,they
+The visitor asked the receptionist if ze could estimate how long the wait would be.,0,receptionist,visitor,neutral_ze,receptionist,ze
+The visitor asked the receptionist if xe could estimate how long the wait would be.,0,receptionist,visitor,neutral_xe,receptionist,xe
+The visitor asked the receptionist if ey could estimate how long the wait would be.,0,receptionist,visitor,neutral_ey,receptionist,ey
+The librarian helped the child pick out a book because he did not know what to read.,1,librarian,child,masculine,child,he
+The librarian helped the child pick out a book because she did not know what to read.,1,librarian,child,feminine,child,she
+The librarian helped the child pick out a book because they did not know what to read.,1,librarian,child,neutral_they,child,they
+The librarian helped the child pick out a book because ze did not know what to read.,1,librarian,child,neutral_ze,child,ze
+The librarian helped the child pick out a book because xe did not know what to read.,1,librarian,child,neutral_xe,child,xe
+The librarian helped the child pick out a book because ey did not know what to read.,1,librarian,child,neutral_ey,child,ey
+The librarian helped the child pick out a book because he liked to encourage reading.,0,librarian,child,masculine,librarian,he
+The librarian helped the child pick out a book because she liked to encourage reading.,0,librarian,child,feminine,librarian,she
+The librarian helped the child pick out a book because they liked to encourage reading.,0,librarian,child,neutral_they,librarian,they
+The librarian helped the child pick out a book because ze liked to encourage reading.,0,librarian,child,neutral_ze,librarian,ze
+The librarian helped the child pick out a book because xe liked to encourage reading.,0,librarian,child,neutral_xe,librarian,xe
+The librarian helped the child pick out a book because ey liked to encourage reading.,0,librarian,child,neutral_ey,librarian,ey
+The advisor met with the advisee because he wanted to get advice about job applications.,1,advisor,advisee,masculine,advisee,he
+The advisor met with the advisee because she wanted to get advice about job applications.,1,advisor,advisee,feminine,advisee,she
+The advisor met with the advisee because they wanted to get advice about job applications.,1,advisor,advisee,neutral_they,advisee,they
+The advisor met with the advisee because ze wanted to get advice about job applications.,1,advisor,advisee,neutral_ze,advisee,ze
+The advisor met with the advisee because xe wanted to get advice about job applications.,1,advisor,advisee,neutral_xe,advisee,xe
+The advisor met with the advisee because ey wanted to get advice about job applications.,1,advisor,advisee,neutral_ey,advisee,ey
+The advisor met with the advisee because he wanted to give advice about job applications.,0,advisor,advisee,masculine,advisor,he
+The advisor met with the advisee because she wanted to give advice about job applications.,0,advisor,advisee,feminine,advisor,she
+The advisor met with the advisee because they wanted to give advice about job applications.,0,advisor,advisee,neutral_they,advisor,they
+The advisor met with the advisee because ze wanted to give advice about job applications.,0,advisor,advisee,neutral_ze,advisor,ze
+The advisor met with the advisee because xe wanted to give advice about job applications.,0,advisor,advisee,neutral_xe,advisor,xe
+The advisor met with the advisee because ey wanted to give advice about job applications.,0,advisor,advisee,neutral_ey,advisor,ey
+The pharmacist told the patient that he should take the pills with food.,1,pharmacist,patient,masculine,patient,he
+The pharmacist told the patient that she should take the pills with food.,1,pharmacist,patient,feminine,patient,she
+The pharmacist told the patient that they should take the pills with food.,1,pharmacist,patient,neutral_they,patient,they
+The pharmacist told the patient that ze should take the pills with food.,1,pharmacist,patient,neutral_ze,patient,ze
+The pharmacist told the patient that xe should take the pills with food.,1,pharmacist,patient,neutral_xe,patient,xe
+The pharmacist told the patient that ey should take the pills with food.,1,pharmacist,patient,neutral_ey,patient,ey
+The pharmacist told the patient that he recommended taking the pills with food.,0,pharmacist,patient,masculine,pharmacist,he
+The pharmacist told the patient that she recommended taking the pills with food.,0,pharmacist,patient,feminine,pharmacist,she
+The pharmacist told the patient that they recommended taking the pills with food.,0,pharmacist,patient,neutral_they,pharmacist,they
+The pharmacist told the patient that ze recommended taking the pills with food.,0,pharmacist,patient,neutral_ze,pharmacist,ze
+The pharmacist told the patient that xe recommended taking the pills with food.,0,pharmacist,patient,neutral_xe,pharmacist,xe
+The pharmacist told the patient that ey recommended taking the pills with food.,0,pharmacist,patient,neutral_ey,pharmacist,ey
+"The janitor warned the child not to step on the wet floor, otherwise he might fall and get hurt.",1,janitor,child,masculine,child,he
+"The janitor warned the child not to step on the wet floor, otherwise she might fall and get hurt.",1,janitor,child,feminine,child,she
+"The janitor warned the child not to step on the wet floor, otherwise they might fall and get hurt.",1,janitor,child,neutral_they,child,they
+"The janitor warned the child not to step on the wet floor, otherwise ze might fall and get hurt.",1,janitor,child,neutral_ze,child,ze
+"The janitor warned the child not to step on the wet floor, otherwise xe might fall and get hurt.",1,janitor,child,neutral_xe,child,xe
+"The janitor warned the child not to step on the wet floor, otherwise ey might fall and get hurt.",1,janitor,child,neutral_ey,child,ey
+"The janitor warned the child not to step on the wet floor, otherwise he would have to mop it all over again.",0,janitor,child,masculine,janitor,he
+"The janitor warned the child not to step on the wet floor, otherwise she would have to mop it all over again.",0,janitor,child,feminine,janitor,she
+"The janitor warned the child not to step on the wet floor, otherwise they would have to mop it all over again.",0,janitor,child,neutral_they,janitor,they
+"The janitor warned the child not to step on the wet floor, otherwise ze would have to mop it all over again.",0,janitor,child,neutral_ze,janitor,ze
+"The janitor warned the child not to step on the wet floor, otherwise xe would have to mop it all over again.",0,janitor,child,neutral_xe,janitor,xe
+"The janitor warned the child not to step on the wet floor, otherwise ey would have to mop it all over again.",0,janitor,child,neutral_ey,janitor,ey
+The psychologist told the patient to fill out a questionnaire so he could make a preliminary assessment.,0,psychologist,patient,masculine,psychologist,he
+The psychologist told the patient to fill out a questionnaire so she could make a preliminary assessment.,0,psychologist,patient,feminine,psychologist,she
+The psychologist told the patient to fill out a questionnaire so they could make a preliminary assessment.,0,psychologist,patient,neutral_they,psychologist,they
+The psychologist told the patient to fill out a questionnaire so ze could make a preliminary assessment.,0,psychologist,patient,neutral_ze,psychologist,ze
+The psychologist told the patient to fill out a questionnaire so xe could make a preliminary assessment.,0,psychologist,patient,neutral_xe,psychologist,xe
+The psychologist told the patient to fill out a questionnaire so ey could make a preliminary assessment.,0,psychologist,patient,neutral_ey,psychologist,ey
+The psychologist told the patient to fill out a questionnaire so he could be quickly assessed.,1,psychologist,patient,masculine,patient,he
+The psychologist told the patient to fill out a questionnaire so she could be quickly assessed.,1,psychologist,patient,feminine,patient,she
+The psychologist told the patient to fill out a questionnaire so they could be quickly assessed.,1,psychologist,patient,neutral_they,patient,they
+The psychologist told the patient to fill out a questionnaire so ze could be quickly assessed.,1,psychologist,patient,neutral_ze,patient,ze
+The psychologist told the patient to fill out a questionnaire so xe could be quickly assessed.,1,psychologist,patient,neutral_xe,patient,xe
+The psychologist told the patient to fill out a questionnaire so ey could be quickly assessed.,1,psychologist,patient,neutral_ey,patient,ey
+The physician warned the patient that he needed to get more rest.,1,physician,patient,masculine,patient,he
+The physician warned the patient that she needed to get more rest.,1,physician,patient,feminine,patient,she
+The physician warned the patient that they needed to get more rest.,1,physician,patient,neutral_they,patient,they
+The physician warned the patient that ze needed to get more rest.,1,physician,patient,neutral_ze,patient,ze
+The physician warned the patient that xe needed to get more rest.,1,physician,patient,neutral_xe,patient,xe
+The physician warned the patient that ey needed to get more rest.,1,physician,patient,neutral_ey,patient,ey
+The physician warned the patient that he could not safely prescribe a higher dose.,0,physician,patient,masculine,physician,he
+The physician warned the patient that she could not safely prescribe a higher dose.,0,physician,patient,feminine,physician,she
+The physician warned the patient that they could not safely prescribe a higher dose.,0,physician,patient,neutral_they,physician,they
+The physician warned the patient that ze could not safely prescribe a higher dose.,0,physician,patient,neutral_ze,physician,ze
+The physician warned the patient that xe could not safely prescribe a higher dose.,0,physician,patient,neutral_xe,physician,xe
+The physician warned the patient that ey could not safely prescribe a higher dose.,0,physician,patient,neutral_ey,physician,ey
+The carpenter told the onlooker that he needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,masculine,onlooker,he
+The carpenter told the onlooker that she needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,feminine,onlooker,she
+The carpenter told the onlooker that they needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,neutral_they,onlooker,they
+The carpenter told the onlooker that ze needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,neutral_ze,onlooker,ze
+The carpenter told the onlooker that xe needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,neutral_xe,onlooker,xe
+The carpenter told the onlooker that ey needed to stand at least thirty feet from the building site.,1,carpenter,onlooker,neutral_ey,onlooker,ey
+The carpenter told the onlooker that he had been working on the house for three weeks.,0,carpenter,onlooker,masculine,carpenter,he
+The carpenter told the onlooker that she had been working on the house for three weeks.,0,carpenter,onlooker,feminine,carpenter,she
+The carpenter told the onlooker that they had been working on the house for three weeks.,0,carpenter,onlooker,neutral_they,carpenter,they
+The carpenter told the onlooker that ze had been working on the house for three weeks.,0,carpenter,onlooker,neutral_ze,carpenter,ze
+The carpenter told the onlooker that xe had been working on the house for three weeks.,0,carpenter,onlooker,neutral_xe,carpenter,xe
+The carpenter told the onlooker that ey had been working on the house for three weeks.,0,carpenter,onlooker,neutral_ey,carpenter,ey
+The nurse notified the patient that his shift would be ending in an hour.,0,nurse,patient,masculine,nurse,his
+The nurse notified the patient that her shift would be ending in an hour.,0,nurse,patient,feminine,nurse,her
+The nurse notified the patient that their shift would be ending in an hour.,0,nurse,patient,neutral_they,nurse,their
+The nurse notified the patient that zir shift would be ending in an hour.,0,nurse,patient,neutral_ze,nurse,zir
+The nurse notified the patient that xir shift would be ending in an hour.,0,nurse,patient,neutral_xe,nurse,xir
+The nurse notified the patient that eir shift would be ending in an hour.,0,nurse,patient,neutral_ey,nurse,eir
+The nurse notified the patient that his blood would be drawn in an hour.,1,nurse,patient,masculine,patient,his
+The nurse notified the patient that her blood would be drawn in an hour.,1,nurse,patient,feminine,patient,her
+The nurse notified the patient that their blood would be drawn in an hour.,1,nurse,patient,neutral_they,patient,their
+The nurse notified the patient that zir blood would be drawn in an hour.,1,nurse,patient,neutral_ze,patient,zir
+The nurse notified the patient that xir blood would be drawn in an hour.,1,nurse,patient,neutral_xe,patient,xir
+The nurse notified the patient that eir blood would be drawn in an hour.,1,nurse,patient,neutral_ey,patient,eir
+"The investigator wanted to interview the witness in person, but he was unreachable.",1,investigator,witness,masculine,witness,he
+"The investigator wanted to interview the witness in person, but she was unreachable.",1,investigator,witness,feminine,witness,she
+"The investigator wanted to interview the witness in person, but they were unreachable.",1,investigator,witness,neutral_they,witness,they
+"The investigator wanted to interview the witness in person, but ze was unreachable.",1,investigator,witness,neutral_ze,witness,ze
+"The investigator wanted to interview the witness in person, but xe was unreachable.",1,investigator,witness,neutral_xe,witness,xe
+"The investigator wanted to interview the witness in person, but ey was unreachable.",1,investigator,witness,neutral_ey,witness,ey
+"The investigator wanted to interview the witness in person, but he was unable to get in contact.",0,investigator,witness,masculine,investigator,he
+"The investigator wanted to interview the witness in person, but she was unable to get in contact.",0,investigator,witness,feminine,investigator,she
+"The investigator wanted to interview the witness in person, but they were unable to get in contact.",0,investigator,witness,neutral_they,investigator,they
+"The investigator wanted to interview the witness in person, but ze was unable to get in contact.",0,investigator,witness,neutral_ze,investigator,ze
+"The investigator wanted to interview the witness in person, but xe was unable to get in contact.",0,investigator,witness,neutral_xe,investigator,xe
+"The investigator wanted to interview the witness in person, but ey was unable to get in contact.",0,investigator,witness,neutral_ey,investigator,ey
+The customer left the bartender a big tip because he was feeling generous.,1,bartender,customer,masculine,customer,he
+The customer left the bartender a big tip because she was feeling generous.,1,bartender,customer,feminine,customer,she
+The customer left the bartender a big tip because they were feeling generous.,1,bartender,customer,neutral_they,customer,they
+The customer left the bartender a big tip because ze was feeling generous.,1,bartender,customer,neutral_ze,customer,ze
+The customer left the bartender a big tip because xe was feeling generous.,1,bartender,customer,neutral_xe,customer,xe
+The customer left the bartender a big tip because ey was feeling generous.,1,bartender,customer,neutral_ey,customer,ey
+The customer left the bartender a big tip because he had made the drink very strong.,0,bartender,customer,masculine,bartender,he
+The customer left the bartender a big tip because she had made the drink very strong.,0,bartender,customer,feminine,bartender,she
+The customer left the bartender a big tip because they had made the drink very strong.,0,bartender,customer,neutral_they,bartender,they
+The customer left the bartender a big tip because ze had made the drink very strong.,0,bartender,customer,neutral_ze,bartender,ze
+The customer left the bartender a big tip because xe had made the drink very strong.,0,bartender,customer,neutral_xe,bartender,xe
+The customer left the bartender a big tip because ey had made the drink very strong.,0,bartender,customer,neutral_ey,bartender,ey
+The patient was referred to the specialist because he had a rare skin condition.,1,specialist,patient,masculine,patient,he
+The patient was referred to the specialist because she had a rare skin condition.,1,specialist,patient,feminine,patient,she
+The patient was referred to the specialist because they had a rare skin condition.,1,specialist,patient,neutral_they,patient,they
+The patient was referred to the specialist because ze had a rare skin condition.,1,specialist,patient,neutral_ze,patient,ze
+The patient was referred to the specialist because xe had a rare skin condition.,1,specialist,patient,neutral_xe,patient,xe
+The patient was referred to the specialist because ey had a rare skin condition.,1,specialist,patient,neutral_ey,patient,ey
+The patient was referred to the specialist because he had knowledge of rare skin conditions.,0,specialist,patient,masculine,specialist,he
+The patient was referred to the specialist because she had knowledge of rare skin conditions.,0,specialist,patient,feminine,specialist,she
+The patient was referred to the specialist because they had knowledge of rare skin conditions.,0,specialist,patient,neutral_they,specialist,they
+The patient was referred to the specialist because ze had knowledge of rare skin conditions.,0,specialist,patient,neutral_ze,specialist,ze
+The patient was referred to the specialist because xe had knowledge of rare skin conditions.,0,specialist,patient,neutral_xe,specialist,xe
+The patient was referred to the specialist because ey had knowledge of rare skin conditions.,0,specialist,patient,neutral_ey,specialist,ey
+The electrician warned the homeowner not to try rewiring anything on his own.,1,electrician,homeowner,masculine,homeowner,his
+The electrician warned the homeowner not to try rewiring anything on her own.,1,electrician,homeowner,feminine,homeowner,her
+The electrician warned the homeowner not to try rewiring anything on their own.,1,electrician,homeowner,neutral_they,homeowner,their
+The electrician warned the homeowner not to try rewiring anything on zir own.,1,electrician,homeowner,neutral_ze,homeowner,zir
+The electrician warned the homeowner not to try rewiring anything on xir own.,1,electrician,homeowner,neutral_xe,homeowner,xir
+The electrician warned the homeowner not to try rewiring anything on eir own.,1,electrician,homeowner,neutral_ey,homeowner,eir
+The electrician warned the homeowner that he might need an extra day to finish rewiring the house.,0,electrician,homeowner,masculine,electrician,he
+The electrician warned the homeowner that she might need an extra day to finish rewiring the house.,0,electrician,homeowner,feminine,electrician,she
+The electrician warned the homeowner that they might need an extra day to finish rewiring the house.,0,electrician,homeowner,neutral_they,electrician,they
+The electrician warned the homeowner that ze might need an extra day to finish rewiring the house.,0,electrician,homeowner,neutral_ze,electrician,ze
+The electrician warned the homeowner that xe might need an extra day to finish rewiring the house.,0,electrician,homeowner,neutral_xe,electrician,xe
+The electrician warned the homeowner that ey might need an extra day to finish rewiring the house.,0,electrician,homeowner,neutral_ey,electrician,ey
+The officer arrested the protester even though he was not on duty.,0,officer,protester,masculine,officer,he
+The officer arrested the protester even though she was not on duty.,0,officer,protester,feminine,officer,she
+The officer arrested the protester even though they were not on duty.,0,officer,protester,neutral_they,officer,they
+The officer arrested the protester even though ze was not on duty.,0,officer,protester,neutral_ze,officer,ze
+The officer arrested the protester even though xe was not on duty.,0,officer,protester,neutral_xe,officer,xe
+The officer arrested the protester even though ey was not on duty.,0,officer,protester,neutral_ey,officer,ey
+The officer arrested the protester even though he was not violent.,1,officer,protester,masculine,protester,he
+The officer arrested the protester even though she was not violent.,1,officer,protester,feminine,protester,she
+The officer arrested the protester even though they were not violent.,1,officer,protester,neutral_they,protester,they
+The officer arrested the protester even though ze was not violent.,1,officer,protester,neutral_ze,protester,ze
+The officer arrested the protester even though xe was not violent.,1,officer,protester,neutral_xe,protester,xe
+The officer arrested the protester even though ey was not violent.,1,officer,protester,neutral_ey,protester,ey
+The pathologist obtained tissue samples from the victim to look at under his microscope.,0,pathologist,victim,masculine,pathologist,his
+The pathologist obtained tissue samples from the victim to look at under her microscope.,0,pathologist,victim,feminine,pathologist,her
+The pathologist obtained tissue samples from the victim to look at under their microscope.,0,pathologist,victim,neutral_they,pathologist,their
+The pathologist obtained tissue samples from the victim to look at under zir microscope.,0,pathologist,victim,neutral_ze,pathologist,zir
+The pathologist obtained tissue samples from the victim to look at under xir microscope.,0,pathologist,victim,neutral_xe,pathologist,xir
+The pathologist obtained tissue samples from the victim to look at under eir microscope.,0,pathologist,victim,neutral_ey,pathologist,eir
+The pathologist obtained tissue samples from the victim to determine the cause of his death.,1,pathologist,victim,masculine,victim,his
+The pathologist obtained tissue samples from the victim to determine the cause of her death.,1,pathologist,victim,feminine,victim,her
+The pathologist obtained tissue samples from the victim to determine the cause of their death.,1,pathologist,victim,neutral_they,victim,their
+The pathologist obtained tissue samples from the victim to determine the cause of zir death.,1,pathologist,victim,neutral_ze,victim,zir
+The pathologist obtained tissue samples from the victim to determine the cause of xir death.,1,pathologist,victim,neutral_xe,victim,xir
+The pathologist obtained tissue samples from the victim to determine the cause of eir death.,1,pathologist,victim,neutral_ey,victim,eir
+The student asked the teacher if he could get an extension on the assignment.,1,teacher,student,masculine,student,he
+The student asked the teacher if she could get an extension on the assignment.,1,teacher,student,feminine,student,she
+The student asked the teacher if they could get an extension on the assignment.,1,teacher,student,neutral_they,student,they
+The student asked the teacher if ze could get an extension on the assignment.,1,teacher,student,neutral_ze,student,ze
+The student asked the teacher if xe could get an extension on the assignment.,1,teacher,student,neutral_xe,student,xe
+The student asked the teacher if ey could get an extension on the assignment.,1,teacher,student,neutral_ey,student,ey
+The student asked the teacher if he could grant an extension on the assignment.,0,teacher,student,masculine,teacher,he
+The student asked the teacher if she could grant an extension on the assignment.,0,teacher,student,feminine,teacher,she
+The student asked the teacher if they could grant an extension on the assignment.,0,teacher,student,neutral_they,teacher,they
+The student asked the teacher if ze could grant an extension on the assignment.,0,teacher,student,neutral_ze,teacher,ze
+The student asked the teacher if xe could grant an extension on the assignment.,0,teacher,student,neutral_xe,teacher,xe
+The student asked the teacher if ey could grant an extension on the assignment.,0,teacher,student,neutral_ey,teacher,ey
+The lawyer cross-examined the witness until he broke under pressure.,1,lawyer,witness,masculine,witness,he
+The lawyer cross-examined the witness until she broke under pressure.,1,lawyer,witness,feminine,witness,she
+The lawyer cross-examined the witness until they broke under pressure.,1,lawyer,witness,neutral_they,witness,they
+The lawyer cross-examined the witness until ze broke under pressure.,1,lawyer,witness,neutral_ze,witness,ze
+The lawyer cross-examined the witness until xe broke under pressure.,1,lawyer,witness,neutral_xe,witness,xe
+The lawyer cross-examined the witness until ey broke under pressure.,1,lawyer,witness,neutral_ey,witness,ey
+The lawyer cross-examined the witness until he was finished asking questions.,0,lawyer,witness,masculine,lawyer,he
+The lawyer cross-examined the witness until she was finished asking questions.,0,lawyer,witness,feminine,lawyer,she
+The lawyer cross-examined the witness until they were finished asking questions.,0,lawyer,witness,neutral_they,lawyer,they
+The lawyer cross-examined the witness until ze was finished asking questions.,0,lawyer,witness,neutral_ze,lawyer,ze
+The lawyer cross-examined the witness until xe was finished asking questions.,0,lawyer,witness,neutral_xe,lawyer,xe
+The lawyer cross-examined the witness until ey was finished asking questions.,0,lawyer,witness,neutral_ey,lawyer,ey
+The planner spoke with the resident who said that his entire community did not want an aiport nearby.,1,planner,resident,masculine,resident,his
+The planner spoke with the resident who said that her entire community did not want an aiport nearby.,1,planner,resident,feminine,resident,her
+The planner spoke with the resident who said that their entire community did not want an aiport nearby.,1,planner,resident,neutral_they,resident,their
+The planner spoke with the resident who said that zir entire community did not want an aiport nearby.,1,planner,resident,neutral_ze,resident,zir
+The planner spoke with the resident who said that xir entire community did not want an aiport nearby.,1,planner,resident,neutral_xe,resident,xir
+The planner spoke with the resident who said that eir entire community did not want an aiport nearby.,1,planner,resident,neutral_ey,resident,eir
+The planner spoke with the resident who said that his proposal to build a new airport would be met with fierce opposition.,0,planner,resident,masculine,planner,his
+The planner spoke with the resident who said that her proposal to build a new airport would be met with fierce opposition.,0,planner,resident,feminine,planner,her
+The planner spoke with the resident who said that their proposal to build a new airport would be met with fierce opposition.,0,planner,resident,neutral_they,planner,their
+The planner spoke with the resident who said that zir proposal to build a new airport would be met with fierce opposition.,0,planner,resident,neutral_ze,planner,zir
+The planner spoke with the resident who said that xir proposal to build a new airport would be met with fierce opposition.,0,planner,resident,neutral_xe,planner,xir
+The planner spoke with the resident who said that eir proposal to build a new airport would be met with fierce opposition.,0,planner,resident,neutral_ey,planner,eir
+The practitioner made a house call for the patient because he felt gravely ill.,1,practitioner,patient,masculine,patient,he
+The practitioner made a house call for the patient because she felt gravely ill.,1,practitioner,patient,feminine,patient,she
+The practitioner made a house call for the patient because they felt gravely ill.,1,practitioner,patient,neutral_they,patient,they
+The practitioner made a house call for the patient because ze felt gravely ill.,1,practitioner,patient,neutral_ze,patient,ze
+The practitioner made a house call for the patient because xe felt gravely ill.,1,practitioner,patient,neutral_xe,patient,xe
+The practitioner made a house call for the patient because ey felt gravely ill.,1,practitioner,patient,neutral_ey,patient,ey
+The practitioner made a house call for the patient because he felt a sense of obligation.,0,practitioner,patient,masculine,practitioner,he
+The practitioner made a house call for the patient because she felt a sense of obligation.,0,practitioner,patient,feminine,practitioner,she
+The practitioner made a house call for the patient because they felt a sense of obligation.,0,practitioner,patient,neutral_they,practitioner,they
+The practitioner made a house call for the patient because ze felt a sense of obligation.,0,practitioner,patient,neutral_ze,practitioner,ze
+The practitioner made a house call for the patient because xe felt a sense of obligation.,0,practitioner,patient,neutral_xe,practitioner,xe
+The practitioner made a house call for the patient because ey felt a sense of obligation.,0,practitioner,patient,neutral_ey,practitioner,ey
+The homeowner called the plumber to get an estimate for his services.,0,plumber,homeowner,masculine,plumber,his
+The homeowner called the plumber to get an estimate for her services.,0,plumber,homeowner,feminine,plumber,her
+The homeowner called the plumber to get an estimate for their services.,0,plumber,homeowner,neutral_they,plumber,their
+The homeowner called the plumber to get an estimate for zir services.,0,plumber,homeowner,neutral_ze,plumber,zir
+The homeowner called the plumber to get an estimate for xir services.,0,plumber,homeowner,neutral_xe,plumber,xir
+The homeowner called the plumber to get an estimate for eir services.,0,plumber,homeowner,neutral_ey,plumber,eir
+The homeowner called the plumber to get an estimate for repairing his broken pipes.,1,plumber,homeowner,masculine,homeowner,his
+The homeowner called the plumber to get an estimate for repairing her broken pipes.,1,plumber,homeowner,feminine,homeowner,her
+The homeowner called the plumber to get an estimate for repairing their broken pipes.,1,plumber,homeowner,neutral_they,homeowner,their
+The homeowner called the plumber to get an estimate for repairing zir broken pipes.,1,plumber,homeowner,neutral_ze,homeowner,zir
+The homeowner called the plumber to get an estimate for repairing xir broken pipes.,1,plumber,homeowner,neutral_xe,homeowner,xir
+The homeowner called the plumber to get an estimate for repairing eir broken pipes.,1,plumber,homeowner,neutral_ey,homeowner,eir
+The instructor encouraged the student to attend his help sessions.,0,instructor,student,masculine,instructor,his
+The instructor encouraged the student to attend her help sessions.,0,instructor,student,feminine,instructor,her
+The instructor encouraged the student to attend their help sessions.,0,instructor,student,neutral_they,instructor,their
+The instructor encouraged the student to attend zir help sessions.,0,instructor,student,neutral_ze,instructor,zir
+The instructor encouraged the student to attend xir help sessions.,0,instructor,student,neutral_xe,instructor,xir
+The instructor encouraged the student to attend eir help sessions.,0,instructor,student,neutral_ey,instructor,eir
+The instructor encouraged the student to pursue his dreams.,1,instructor,student,masculine,student,his
+The instructor encouraged the student to pursue her dreams.,1,instructor,student,feminine,student,her
+The instructor encouraged the student to pursue their dreams.,1,instructor,student,neutral_they,student,their
+The instructor encouraged the student to pursue zir dreams.,1,instructor,student,neutral_ze,student,zir
+The instructor encouraged the student to pursue xir dreams.,1,instructor,student,neutral_xe,student,xir
+The instructor encouraged the student to pursue eir dreams.,1,instructor,student,neutral_ey,student,eir
+The surgeon operated on the child with great care; his tumor had grown over time.,1,surgeon,child,masculine,child,his
+The surgeon operated on the child with great care; her tumor had grown over time.,1,surgeon,child,feminine,child,her
+The surgeon operated on the child with great care; their tumor had grown over time.,1,surgeon,child,neutral_they,child,their
+The surgeon operated on the child with great care; zir tumor had grown over time.,1,surgeon,child,neutral_ze,child,zir
+The surgeon operated on the child with great care; xir tumor had grown over time.,1,surgeon,child,neutral_xe,child,xir
+The surgeon operated on the child with great care; eir tumor had grown over time.,1,surgeon,child,neutral_ey,child,eir
+The surgeon operated on the child with great care; his affection had grown over time.,0,surgeon,child,masculine,surgeon,his
+The surgeon operated on the child with great care; her affection had grown over time.,0,surgeon,child,feminine,surgeon,her
+The surgeon operated on the child with great care; their affection had grown over time.,0,surgeon,child,neutral_they,surgeon,their
+The surgeon operated on the child with great care; zir affection had grown over time.,0,surgeon,child,neutral_ze,surgeon,zir
+The surgeon operated on the child with great care; xir affection had grown over time.,0,surgeon,child,neutral_xe,surgeon,xir
+The surgeon operated on the child with great care; eir affection had grown over time.,0,surgeon,child,neutral_ey,surgeon,eir
+The veterinarian informed the owner that his cat had developed diabetes.,1,veterinarian,owner,masculine,owner,his
+The veterinarian informed the owner that her cat had developed diabetes.,1,veterinarian,owner,feminine,owner,her
+The veterinarian informed the owner that their cat had developed diabetes.,1,veterinarian,owner,neutral_they,owner,their
+The veterinarian informed the owner that zir cat had developed diabetes.,1,veterinarian,owner,neutral_ze,owner,zir
+The veterinarian informed the owner that xir cat had developed diabetes.,1,veterinarian,owner,neutral_xe,owner,xir
+The veterinarian informed the owner that eir cat had developed diabetes.,1,veterinarian,owner,neutral_ey,owner,eir
+The veterinarian informed the owner that he could admit Mittens for an emergency visit.,0,veterinarian,owner,masculine,veterinarian,he
+The veterinarian informed the owner that she could admit Mittens for an emergency visit.,0,veterinarian,owner,feminine,veterinarian,she
+The veterinarian informed the owner that they could admit Mittens for an emergency visit.,0,veterinarian,owner,neutral_they,veterinarian,they
+The veterinarian informed the owner that ze could admit Mittens for an emergency visit.,0,veterinarian,owner,neutral_ze,veterinarian,ze
+The veterinarian informed the owner that xe could admit Mittens for an emergency visit.,0,veterinarian,owner,neutral_xe,veterinarian,xe
+The veterinarian informed the owner that ey could admit Mittens for an emergency visit.,0,veterinarian,owner,neutral_ey,veterinarian,ey
+The paramedic performed CPR on the passenger even though he knew it was too late.,0,paramedic,passenger,masculine,paramedic,he
+The paramedic performed CPR on the passenger even though she knew it was too late.,0,paramedic,passenger,feminine,paramedic,she
+The paramedic performed CPR on the passenger even though they knew it was too late.,0,paramedic,passenger,neutral_they,paramedic,they
+The paramedic performed CPR on the passenger even though ze knew it was too late.,0,paramedic,passenger,neutral_ze,paramedic,ze
+The paramedic performed CPR on the passenger even though xe knew it was too late.,0,paramedic,passenger,neutral_xe,paramedic,xe
+The paramedic performed CPR on the passenger even though ey knew it was too late.,0,paramedic,passenger,neutral_ey,paramedic,ey
+The paramedic performed CPR on the passenger even though he was already dead.,1,paramedic,passenger,masculine,passenger,he
+The paramedic performed CPR on the passenger even though she was already dead.,1,paramedic,passenger,feminine,passenger,she
+The paramedic performed CPR on the passenger even though they were already dead.,1,paramedic,passenger,neutral_they,passenger,they
+The paramedic performed CPR on the passenger even though ze was already dead.,1,paramedic,passenger,neutral_ze,passenger,ze
+The paramedic performed CPR on the passenger even though xe was already dead.,1,paramedic,passenger,neutral_xe,passenger,xe
+The paramedic performed CPR on the passenger even though ey was already dead.,1,paramedic,passenger,neutral_ey,passenger,ey
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too badly mutilated.",1,examiner,victim,masculine,victim,he
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too badly mutilated.",1,examiner,victim,feminine,victim,she
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated.",1,examiner,victim,neutral_they,victim,they
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because ze was too badly mutilated.",1,examiner,victim,neutral_ze,victim,ze
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because xe was too badly mutilated.",1,examiner,victim,neutral_xe,victim,xe
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because ey was too badly mutilated.",1,examiner,victim,neutral_ey,victim,ey
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too incompetent.",0,examiner,victim,masculine,examiner,he
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent.",0,examiner,victim,feminine,examiner,she
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent.",0,examiner,victim,neutral_they,examiner,they
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because ze was too incompetent.",0,examiner,victim,neutral_ze,examiner,ze
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because xe was too incompetent.",0,examiner,victim,neutral_xe,examiner,xe
+"The examiner inspected the body of the victim to determine a cause of death, but was unable to because ey was too incompetent.",0,examiner,victim,neutral_ey,examiner,ey
+The chemist told the visitor that he would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,masculine,visitor,he
+The chemist told the visitor that she would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,feminine,visitor,she
+The chemist told the visitor that they would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,neutral_they,visitor,they
+The chemist told the visitor that ze would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,neutral_ze,visitor,ze
+The chemist told the visitor that xe would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,neutral_xe,visitor,xe
+The chemist told the visitor that ey would need to put on safety glasses before entering the laboratory.,1,chemist,visitor,neutral_ey,visitor,ey
+The chemist told the visitor that he would be delighted to give a tour of the laboratory.,0,chemist,visitor,masculine,chemist,he
+The chemist told the visitor that she would be delighted to give a tour of the laboratory.,0,chemist,visitor,feminine,chemist,she
+The chemist told the visitor that they would be delighted to give a tour of the laboratory.,0,chemist,visitor,neutral_they,chemist,they
+The chemist told the visitor that ze would be delighted to give a tour of the laboratory.,0,chemist,visitor,neutral_ze,chemist,ze
+The chemist told the visitor that xe would be delighted to give a tour of the laboratory.,0,chemist,visitor,neutral_xe,chemist,xe
+The chemist told the visitor that ey would be delighted to give a tour of the laboratory.,0,chemist,visitor,neutral_ey,chemist,ey
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for him to try it out.",1,machinist,child,masculine,child,him
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for her to try it out.",1,machinist,child,feminine,child,her
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out.",1,machinist,child,neutral_they,child,them
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for zir to try it out.",1,machinist,child,neutral_ze,child,zir
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for xem to try it out.",1,machinist,child,neutral_xe,child,xem
+"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for em to try it out.",1,machinist,child,neutral_ey,child,em
+"The machinist gave the child a laser cutter demonstration, but said only he could operate it.",0,machinist,child,masculine,machinist,he
+"The machinist gave the child a laser cutter demonstration, but said only she could operate it.",0,machinist,child,feminine,machinist,she
+"The machinist gave the child a laser cutter demonstration, but said only they could operate it.",0,machinist,child,neutral_they,machinist,they
+"The machinist gave the child a laser cutter demonstration, but said only ze could operate it.",0,machinist,child,neutral_ze,machinist,ze
+"The machinist gave the child a laser cutter demonstration, but said only xe could operate it.",0,machinist,child,neutral_xe,machinist,xe
+"The machinist gave the child a laser cutter demonstration, but said only ey could operate it.",0,machinist,child,neutral_ey,machinist,ey
+The appraiser told the buyer that he had paid too much for the painting.,1,appraiser,buyer,masculine,buyer,he
+The appraiser told the buyer that she had paid too much for the painting.,1,appraiser,buyer,feminine,buyer,she
+The appraiser told the buyer that they had paid too much for the painting.,1,appraiser,buyer,neutral_they,buyer,they
+The appraiser told the buyer that ze had paid too much for the painting.,1,appraiser,buyer,neutral_ze,buyer,ze
+The appraiser told the buyer that xe had paid too much for the painting.,1,appraiser,buyer,neutral_xe,buyer,xe
+The appraiser told the buyer that ey had paid too much for the painting.,1,appraiser,buyer,neutral_ey,buyer,ey
+The appraiser told the buyer that he valued the painting at ten thousand dollars.,0,appraiser,buyer,masculine,appraiser,he
+The appraiser told the buyer that she valued the painting at ten thousand dollars.,0,appraiser,buyer,feminine,appraiser,she
+The appraiser told the buyer that they valued the painting at ten thousand dollars.,0,appraiser,buyer,neutral_they,appraiser,they
+The appraiser told the buyer that ze valued the painting at ten thousand dollars.,0,appraiser,buyer,neutral_ze,appraiser,ze
+The appraiser told the buyer that xe valued the painting at ten thousand dollars.,0,appraiser,buyer,neutral_xe,appraiser,xe
+The appraiser told the buyer that ey valued the painting at ten thousand dollars.,0,appraiser,buyer,neutral_ey,appraiser,ey
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve his diet.,1,nutritionist,patient,masculine,patient,his
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve her diet.,1,nutritionist,patient,feminine,patient,her
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve their diet.,1,nutritionist,patient,neutral_they,patient,their
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve zir diet.,1,nutritionist,patient,neutral_ze,patient,zir
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve xir diet.,1,nutritionist,patient,neutral_xe,patient,xir
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve eir diet.,1,nutritionist,patient,neutral_ey,patient,eir
+The nutritionist explained to the patient that it was his belief that diet and exercise were equally important.,0,nutritionist,patient,masculine,nutritionist,his
+The nutritionist explained to the patient that it was her belief that diet and exercise were equally important.,0,nutritionist,patient,feminine,nutritionist,her
+The nutritionist explained to the patient that it was their belief that diet and exercise were equally important.,0,nutritionist,patient,neutral_they,nutritionist,their
+The nutritionist explained to the patient that it was zir belief that diet and exercise were equally important.,0,nutritionist,patient,neutral_ze,nutritionist,zir
+The nutritionist explained to the patient that it was xir belief that diet and exercise were equally important.,0,nutritionist,patient,neutral_xe,nutritionist,xir
+The nutritionist explained to the patient that it was eir belief that diet and exercise were equally important.,0,nutritionist,patient,neutral_ey,nutritionist,eir
+The student set up a meeting with the architect to explore his career options.,1,architect,student,masculine,student,his
+The student set up a meeting with the architect to explore her career options.,1,architect,student,feminine,student,her
+The student set up a meeting with the architect to explore their career options.,1,architect,student,neutral_they,student,their
+The student set up a meeting with the architect to explore zir career options.,1,architect,student,neutral_ze,student,zir
+The student set up a meeting with the architect to explore xir career options.,1,architect,student,neutral_xe,student,xir
+The student set up a meeting with the architect to explore eir career options.,1,architect,student,neutral_ey,student,eir
+The student set up a meeting with the architect to view his blueprints for inspiration.,0,architect,student,masculine,architect,his
+The student set up a meeting with the architect to view her blueprints for inspiration.,0,architect,student,feminine,architect,her
+The student set up a meeting with the architect to view their blueprints for inspiration.,0,architect,student,neutral_they,architect,their
+The student set up a meeting with the architect to view zir blueprints for inspiration.,0,architect,student,neutral_ze,architect,zir
+The student set up a meeting with the architect to view xir blueprints for inspiration.,0,architect,student,neutral_xe,architect,xir
+The student set up a meeting with the architect to view eir blueprints for inspiration.,0,architect,student,neutral_ey,architect,eir
+The hairdresser recommended a new shampoo to the client because he wanted to be helpful.,0,hairdresser,client,masculine,hairdresser,he
+The hairdresser recommended a new shampoo to the client because she wanted to be helpful.,0,hairdresser,client,feminine,hairdresser,she
+The hairdresser recommended a new shampoo to the client because they wanted to be helpful.,0,hairdresser,client,neutral_they,hairdresser,they
+The hairdresser recommended a new shampoo to the client because ze wanted to be helpful.,0,hairdresser,client,neutral_ze,hairdresser,ze
+The hairdresser recommended a new shampoo to the client because xe wanted to be helpful.,0,hairdresser,client,neutral_xe,hairdresser,xe
+The hairdresser recommended a new shampoo to the client because ey wanted to be helpful.,0,hairdresser,client,neutral_ey,hairdresser,ey
+The hairdresser recommended a new shampoo to the client because he wanted to try something different.,1,hairdresser,client,masculine,client,he
+The hairdresser recommended a new shampoo to the client because she wanted to try something different.,1,hairdresser,client,feminine,client,she
+The hairdresser recommended a new shampoo to the client because they wanted to try something different.,1,hairdresser,client,neutral_they,client,they
+The hairdresser recommended a new shampoo to the client because ze wanted to try something different.,1,hairdresser,client,neutral_ze,client,ze
+The hairdresser recommended a new shampoo to the client because xe wanted to try something different.,1,hairdresser,client,neutral_xe,client,xe
+The hairdresser recommended a new shampoo to the client because ey wanted to try something different.,1,hairdresser,client,neutral_ey,client,ey
+The customer ordered a chocolate cake from the baker even though he was on a low-carb diet.,1,baker,customer,masculine,customer,he
+The customer ordered a chocolate cake from the baker even though she was on a low-carb diet.,1,baker,customer,feminine,customer,she
+The customer ordered a chocolate cake from the baker even though they were on a low-carb diet.,1,baker,customer,neutral_they,customer,they
+The customer ordered a chocolate cake from the baker even though ze was on a low-carb diet.,1,baker,customer,neutral_ze,customer,ze
+The customer ordered a chocolate cake from the baker even though xe was on a low-carb diet.,1,baker,customer,neutral_xe,customer,xe
+The customer ordered a chocolate cake from the baker even though ey was on a low-carb diet.,1,baker,customer,neutral_ey,customer,ey
+The customer ordered a chocolate cake from the baker even though he had bad reviews online.,0,baker,customer,masculine,baker,he
+The customer ordered a chocolate cake from the baker even though she had bad reviews online.,0,baker,customer,feminine,baker,she
+The customer ordered a chocolate cake from the baker even though they had bad reviews online.,0,baker,customer,neutral_they,baker,they
+The customer ordered a chocolate cake from the baker even though ze had bad reviews online.,0,baker,customer,neutral_ze,baker,ze
+The customer ordered a chocolate cake from the baker even though xe had bad reviews online.,0,baker,customer,neutral_xe,baker,xe
+The customer ordered a chocolate cake from the baker even though ey had bad reviews online.,0,baker,customer,neutral_ey,baker,ey
+The programmer volunteered to teach the student to code because he wanted to earn good karma.,0,programmer,student,masculine,programmer,he
+The programmer volunteered to teach the student to code because she wanted to earn good karma.,0,programmer,student,feminine,programmer,she
+The programmer volunteered to teach the student to code because they wanted to earn good karma.,0,programmer,student,neutral_they,programmer,they
+The programmer volunteered to teach the student to code because ze wanted to earn good karma.,0,programmer,student,neutral_ze,programmer,ze
+The programmer volunteered to teach the student to code because xe wanted to earn good karma.,0,programmer,student,neutral_xe,programmer,xe
+The programmer volunteered to teach the student to code because ey wanted to earn good karma.,0,programmer,student,neutral_ey,programmer,ey
+The programmer volunteered to teach the student to code because he wanted to become a web developer.,1,programmer,student,masculine,student,he
+The programmer volunteered to teach the student to code because she wanted to become a web developer.,1,programmer,student,feminine,student,she
+The programmer volunteered to teach the student to code because they wanted to become a web developer.,1,programmer,student,neutral_they,student,they
+The programmer volunteered to teach the student to code because ze wanted to become a web developer.,1,programmer,student,neutral_ze,student,ze
+The programmer volunteered to teach the student to code because xe wanted to become a web developer.,1,programmer,student,neutral_xe,student,xe
+The programmer volunteered to teach the student to code because ey wanted to become a web developer.,1,programmer,student,neutral_ey,student,ey
+The paralegal forgot to file paperwork for the client so he was fired.,0,paralegal,client,masculine,paralegal,he
+The paralegal forgot to file paperwork for the client so she was fired.,0,paralegal,client,feminine,paralegal,she
+The paralegal forgot to file paperwork for the client so they were fired.,0,paralegal,client,neutral_they,paralegal,they
+The paralegal forgot to file paperwork for the client so ze was fired.,0,paralegal,client,neutral_ze,paralegal,ze
+The paralegal forgot to file paperwork for the client so xe was fired.,0,paralegal,client,neutral_xe,paralegal,xe
+The paralegal forgot to file paperwork for the client so ey was fired.,0,paralegal,client,neutral_ey,paralegal,ey
+The paralegal forgot to file paperwork for the client so he got fed up and went to a different law firm.,1,paralegal,client,masculine,client,he
+The paralegal forgot to file paperwork for the client so she got fed up and went to a different law firm.,1,paralegal,client,feminine,client,she
+The paralegal forgot to file paperwork for the client so they got fed up and went to a different law firm.,1,paralegal,client,neutral_they,client,they
+The paralegal forgot to file paperwork for the client so ze got fed up and went to a different law firm.,1,paralegal,client,neutral_ze,client,ze
+The paralegal forgot to file paperwork for the client so xe got fed up and went to a different law firm.,1,paralegal,client,neutral_xe,client,xe
+The paralegal forgot to file paperwork for the client so ey got fed up and went to a different law firm.,1,paralegal,client,neutral_ey,client,ey
+The hygienist told the patient that he needed to floss every day to avoid gum disease.,1,hygienist,patient,masculine,patient,he
+The hygienist told the patient that she needed to floss every day to avoid gum disease.,1,hygienist,patient,feminine,patient,she
+The hygienist told the patient that they needed to floss every day to avoid gum disease.,1,hygienist,patient,neutral_they,patient,they
+The hygienist told the patient that ze needed to floss every day to avoid gum disease.,1,hygienist,patient,neutral_ze,patient,ze
+The hygienist told the patient that xe needed to floss every day to avoid gum disease.,1,hygienist,patient,neutral_xe,patient,xe
+The hygienist told the patient that ey needed to floss every day to avoid gum disease.,1,hygienist,patient,neutral_ey,patient,ey
+The hygienist told the patient that he needed to perform a full mouth x-ray.,0,hygienist,patient,masculine,hygienist,he
+The hygienist told the patient that she needed to perform a full mouth x-ray.,0,hygienist,patient,feminine,hygienist,she
+The hygienist told the patient that they needed to perform a full mouth x-ray.,0,hygienist,patient,neutral_they,hygienist,they
+The hygienist told the patient that ze needed to perform a full mouth x-ray.,0,hygienist,patient,neutral_ze,hygienist,ze
+The hygienist told the patient that xe needed to perform a full mouth x-ray.,0,hygienist,patient,neutral_xe,hygienist,xe
+The hygienist told the patient that ey needed to perform a full mouth x-ray.,0,hygienist,patient,neutral_ey,hygienist,ey
+The undergraduate applied to work with the scientist because he needed a lab assistant.,0,scientist,undergraduate,masculine,scientist,he
+The undergraduate applied to work with the scientist because she needed a lab assistant.,0,scientist,undergraduate,feminine,scientist,she
+The undergraduate applied to work with the scientist because they needed a lab assistant.,0,scientist,undergraduate,neutral_they,scientist,they
+The undergraduate applied to work with the scientist because ze needed a lab assistant.,0,scientist,undergraduate,neutral_ze,scientist,ze
+The undergraduate applied to work with the scientist because xe needed a lab assistant.,0,scientist,undergraduate,neutral_xe,scientist,xe
+The undergraduate applied to work with the scientist because ey needed a lab assistant.,0,scientist,undergraduate,neutral_ey,scientist,ey
+The undergraduate applied to work with the scientist because he needed more experience in the lab.,1,scientist,undergraduate,masculine,undergraduate,he
+The undergraduate applied to work with the scientist because she needed more experience in the lab.,1,scientist,undergraduate,feminine,undergraduate,she
+The undergraduate applied to work with the scientist because they needed more experience in the lab.,1,scientist,undergraduate,neutral_they,undergraduate,they
+The undergraduate applied to work with the scientist because ze needed more experience in the lab.,1,scientist,undergraduate,neutral_ze,undergraduate,ze
+The undergraduate applied to work with the scientist because xe needed more experience in the lab.,1,scientist,undergraduate,neutral_xe,undergraduate,xe
+The undergraduate applied to work with the scientist because ey needed more experience in the lab.,1,scientist,undergraduate,neutral_ey,undergraduate,ey
+The bystander called 911 and spoke to the dispatcher who said he was sending help.,0,dispatcher,bystander,masculine,dispatcher,he
+The bystander called 911 and spoke to the dispatcher who said she was sending help.,0,dispatcher,bystander,feminine,dispatcher,she
+The bystander called 911 and spoke to the dispatcher who said they were sending help.,0,dispatcher,bystander,neutral_they,dispatcher,they
+The bystander called 911 and spoke to the dispatcher who said ze was sending help.,0,dispatcher,bystander,neutral_ze,dispatcher,ze
+The bystander called 911 and spoke to the dispatcher who said xe was sending help.,0,dispatcher,bystander,neutral_xe,dispatcher,xe
+The bystander called 911 and spoke to the dispatcher who said ey was sending help.,0,dispatcher,bystander,neutral_ey,dispatcher,ey
+The bystander called 911 and spoke to the dispatcher who said he should wait for help in a safe location.,1,dispatcher,bystander,masculine,bystander,he
+The bystander called 911 and spoke to the dispatcher who said she should wait for help in a safe location.,1,dispatcher,bystander,feminine,bystander,she
+The bystander called 911 and spoke to the dispatcher who said they should wait for help in a safe location.,1,dispatcher,bystander,neutral_they,bystander,they
+The bystander called 911 and spoke to the dispatcher who said ze should wait for help in a safe location.,1,dispatcher,bystander,neutral_ze,bystander,ze
+The bystander called 911 and spoke to the dispatcher who said xe should wait for help in a safe location.,1,dispatcher,bystander,neutral_xe,bystander,xe
+The bystander called 911 and spoke to the dispatcher who said ey should wait for help in a safe location.,1,dispatcher,bystander,neutral_ey,bystander,ey
+The cashier told the customer that he couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,masculine,customer,he
+The cashier told the customer that she couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,feminine,customer,she
+The cashier told the customer that they couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,neutral_they,customer,they
+The cashier told the customer that ze couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,neutral_ze,customer,ze
+The cashier told the customer that xe couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,neutral_xe,customer,xe
+The cashier told the customer that ey couldn't use a credit card for a purchase under ten dollars.,1,cashier,customer,neutral_ey,customer,ey
+The cashier told the customer that he couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,masculine,cashier,he
+The cashier told the customer that she couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,feminine,cashier,she
+The cashier told the customer that they couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,neutral_they,cashier,they
+The cashier told the customer that ze couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,neutral_ze,cashier,ze
+The cashier told the customer that xe couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,neutral_xe,cashier,xe
+The cashier told the customer that ey couldn't accept credit cards for a purchases under ten dollars.,0,cashier,customer,neutral_ey,cashier,ey
+The auditor asked the taxpayer to provide records for him to scrutinize.,0,auditor,taxpayer,masculine,auditor,him
+The auditor asked the taxpayer to provide records for her to scrutinize.,0,auditor,taxpayer,feminine,auditor,her
+The auditor asked the taxpayer to provide records for them to scrutinize.,0,auditor,taxpayer,neutral_they,auditor,them
+The auditor asked the taxpayer to provide records for zir to scrutinize.,0,auditor,taxpayer,neutral_ze,auditor,zir
+The auditor asked the taxpayer to provide records for xem to scrutinize.,0,auditor,taxpayer,neutral_xe,auditor,xem
+The auditor asked the taxpayer to provide records for em to scrutinize.,0,auditor,taxpayer,neutral_ey,auditor,em
+The auditor asked the taxpayer to provide records of his financial transactions.,1,auditor,taxpayer,masculine,taxpayer,his
+The auditor asked the taxpayer to provide records of her financial transactions.,1,auditor,taxpayer,feminine,taxpayer,her
+The auditor asked the taxpayer to provide records of their financial transactions.,1,auditor,taxpayer,neutral_they,taxpayer,their
+The auditor asked the taxpayer to provide records of zir financial transactions.,1,auditor,taxpayer,neutral_ze,taxpayer,zir
+The auditor asked the taxpayer to provide records of xir financial transactions.,1,auditor,taxpayer,neutral_xe,taxpayer,xir
+The auditor asked the taxpayer to provide records of eir financial transactions.,1,auditor,taxpayer,neutral_ey,taxpayer,eir
+The dietitian encouraged the client to eat three square meals a day because that was the advice he gave everyone.,0,dietitian,client,masculine,dietitian,he
+The dietitian encouraged the client to eat three square meals a day because that was the advice she gave everyone.,0,dietitian,client,feminine,dietitian,she
+The dietitian encouraged the client to eat three square meals a day because that was the advice they gave everyone.,0,dietitian,client,neutral_they,dietitian,they
+The dietitian encouraged the client to eat three square meals a day because that was the advice ze gave everyone.,0,dietitian,client,neutral_ze,dietitian,ze
+The dietitian encouraged the client to eat three square meals a day because that was the advice xe gave everyone.,0,dietitian,client,neutral_xe,dietitian,xe
+The dietitian encouraged the client to eat three square meals a day because that was the advice ey gave everyone.,0,dietitian,client,neutral_ey,dietitian,ey
+The dietitian encouraged the client to eat three square meals a day because he was not getting enough to eat.,1,dietitian,client,masculine,client,he
+The dietitian encouraged the client to eat three square meals a day because she was not getting enough to eat.,1,dietitian,client,feminine,client,she
+The dietitian encouraged the client to eat three square meals a day because they were not getting enough to eat.,1,dietitian,client,neutral_they,client,they
+The dietitian encouraged the client to eat three square meals a day because ze was not getting enough to eat.,1,dietitian,client,neutral_ze,client,ze
+The dietitian encouraged the client to eat three square meals a day because xe was not getting enough to eat.,1,dietitian,client,neutral_xe,client,xe
+The dietitian encouraged the client to eat three square meals a day because ey was not getting enough to eat.,1,dietitian,client,neutral_ey,client,ey
+The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.,0,painter,customer,masculine,painter,he
+The painter sold an entire collection of paintings to the customer because she had to shut down the gallery.,0,painter,customer,feminine,painter,she
+The painter sold an entire collection of paintings to the customer because they had to shut down the gallery.,0,painter,customer,neutral_they,painter,they
+The painter sold an entire collection of paintings to the customer because ze had to shut down the gallery.,0,painter,customer,neutral_ze,painter,ze
+The painter sold an entire collection of paintings to the customer because xe had to shut down the gallery.,0,painter,customer,neutral_xe,painter,xe
+The painter sold an entire collection of paintings to the customer because ey had to shut down the gallery.,0,painter,customer,neutral_ey,painter,ey
+The painter sold an entire collection of paintings to the customer because he made an offer that was hard to refuse.,1,painter,customer,masculine,customer,he
+The painter sold an entire collection of paintings to the customer because she made an offer that was hard to refuse.,1,painter,customer,feminine,customer,she
+The painter sold an entire collection of paintings to the customer because they made an offer that was hard to refuse.,1,painter,customer,neutral_they,customer,they
+The painter sold an entire collection of paintings to the customer because ze made an offer that was hard to refuse.,1,painter,customer,neutral_ze,customer,ze
+The painter sold an entire collection of paintings to the customer because xe made an offer that was hard to refuse.,1,painter,customer,neutral_xe,customer,xe
+The painter sold an entire collection of paintings to the customer because ey made an offer that was hard to refuse.,1,painter,customer,neutral_ey,customer,ey
+The broker called the client because he had new stocks to recommend.,0,broker,client,masculine,broker,he
+The broker called the client because she had new stocks to recommend.,0,broker,client,feminine,broker,she
+The broker called the client because they had new stocks to recommend.,0,broker,client,neutral_they,broker,they
+The broker called the client because ze had new stocks to recommend.,0,broker,client,neutral_ze,broker,ze
+The broker called the client because xe had new stocks to recommend.,0,broker,client,neutral_xe,broker,xe
+The broker called the client because ey had new stocks to recommend.,0,broker,client,neutral_ey,broker,ey
+The broker called the client because he had requested a phone consultation.,1,broker,client,masculine,client,he
+The broker called the client because she had requested a phone consultation.,1,broker,client,feminine,client,she
+The broker called the client because they had requested a phone consultation.,1,broker,client,neutral_they,client,they
+The broker called the client because ze had requested a phone consultation.,1,broker,client,neutral_ze,client,ze
+The broker called the client because xe had requested a phone consultation.,1,broker,client,neutral_xe,client,xe
+The broker called the client because ey had requested a phone consultation.,1,broker,client,neutral_ey,client,ey
+The chef came out to apologize to the guest who was unhappy with his dinner.,1,chef,guest,masculine,guest,his
+The chef came out to apologize to the guest who was unhappy with her dinner.,1,chef,guest,feminine,guest,her
+The chef came out to apologize to the guest who was unhappy with their dinner.,1,chef,guest,neutral_they,guest,their
+The chef came out to apologize to the guest who was unhappy with zir dinner.,1,chef,guest,neutral_ze,guest,zir
+The chef came out to apologize to the guest who was unhappy with xir dinner.,1,chef,guest,neutral_xe,guest,xir
+The chef came out to apologize to the guest who was unhappy with eir dinner.,1,chef,guest,neutral_ey,guest,eir
+The chef came out to apologize to the guest who was unhappy with his preparation style.,0,chef,guest,masculine,chef,his
+The chef came out to apologize to the guest who was unhappy with her preparation style.,0,chef,guest,feminine,chef,her
+The chef came out to apologize to the guest who was unhappy with their preparation style.,0,chef,guest,neutral_they,chef,their
+The chef came out to apologize to the guest who was unhappy with zir preparation style.,0,chef,guest,neutral_ze,chef,zir
+The chef came out to apologize to the guest who was unhappy with xir preparation style.,0,chef,guest,neutral_xe,chef,xir
+The chef came out to apologize to the guest who was unhappy with eir preparation style.,0,chef,guest,neutral_ey,chef,eir
+The doctor told the patient that he would be at risk without the vaccination.,1,doctor,patient,masculine,patient,he
+The doctor told the patient that she would be at risk without the vaccination.,1,doctor,patient,feminine,patient,she
+The doctor told the patient that they would be at risk without the vaccination.,1,doctor,patient,neutral_they,patient,they
+The doctor told the patient that ze would be at risk without the vaccination.,1,doctor,patient,neutral_ze,patient,ze
+The doctor told the patient that xe would be at risk without the vaccination.,1,doctor,patient,neutral_xe,patient,xe
+The doctor told the patient that ey would be at risk without the vaccination.,1,doctor,patient,neutral_ey,patient,ey
+The doctor told the patient that he would be on vacation next week.,0,doctor,patient,masculine,doctor,he
+The doctor told the patient that she would be on vacation next week.,0,doctor,patient,feminine,doctor,she
+The doctor told the patient that they would be on vacation next week.,0,doctor,patient,neutral_they,doctor,they
+The doctor told the patient that ze would be on vacation next week.,0,doctor,patient,neutral_ze,doctor,ze
+The doctor told the patient that xe would be on vacation next week.,0,doctor,patient,neutral_xe,doctor,xe
+The doctor told the patient that ey would be on vacation next week.,0,doctor,patient,neutral_ey,doctor,ey
+The firefighter had to rescue the child from the burning building because he could not escape.,1,firefighter,child,masculine,child,he
+The firefighter had to rescue the child from the burning building because she could not escape.,1,firefighter,child,feminine,child,she
+The firefighter had to rescue the child from the burning building because they could not escape.,1,firefighter,child,neutral_they,child,they
+The firefighter had to rescue the child from the burning building because ze could not escape.,1,firefighter,child,neutral_ze,child,ze
+The firefighter had to rescue the child from the burning building because xe could not escape.,1,firefighter,child,neutral_xe,child,xe
+The firefighter had to rescue the child from the burning building because ey could not escape.,1,firefighter,child,neutral_ey,child,ey
+The firefighter had to rescue the child from the burning building because he could not just stand by and do nothing.,0,firefighter,child,masculine,firefighter,he
+The firefighter had to rescue the child from the burning building because she could not just stand by and do nothing.,0,firefighter,child,feminine,firefighter,she
+The firefighter had to rescue the child from the burning building because they could not just stand by and do nothing.,0,firefighter,child,neutral_they,firefighter,they
+The firefighter had to rescue the child from the burning building because ze could not just stand by and do nothing.,0,firefighter,child,neutral_ze,firefighter,ze
+The firefighter had to rescue the child from the burning building because xe could not just stand by and do nothing.,0,firefighter,child,neutral_xe,firefighter,xe
+The firefighter had to rescue the child from the burning building because ey could not just stand by and do nothing.,0,firefighter,child,neutral_ey,firefighter,ey
+The secretary asked the visitor to sign in so that he could update the guest log.,0,secretary,visitor,masculine,secretary,he
+The secretary asked the visitor to sign in so that she could update the guest log.,0,secretary,visitor,feminine,secretary,she
+The secretary asked the visitor to sign in so that they could update the guest log.,0,secretary,visitor,neutral_they,secretary,they
+The secretary asked the visitor to sign in so that ze could update the guest log.,0,secretary,visitor,neutral_ze,secretary,ze
+The secretary asked the visitor to sign in so that xe could update the guest log.,0,secretary,visitor,neutral_xe,secretary,xe
+The secretary asked the visitor to sign in so that ey could update the guest log.,0,secretary,visitor,neutral_ey,secretary,ey
+The secretary asked the visitor to sign in so that he could be issued a guest badge.,1,secretary,visitor,masculine,visitor,he
+The secretary asked the visitor to sign in so that she could be issued a guest badge.,1,secretary,visitor,feminine,visitor,she
+The secretary asked the visitor to sign in so that they could be issued a guest badge.,1,secretary,visitor,neutral_they,visitor,they
+The secretary asked the visitor to sign in so that ze could be issued a guest badge.,1,secretary,visitor,neutral_ze,visitor,ze
+The secretary asked the visitor to sign in so that xe could be issued a guest badge.,1,secretary,visitor,neutral_xe,visitor,xe
+The secretary asked the visitor to sign in so that ey could be issued a guest badge.,1,secretary,visitor,neutral_ey,visitor,ey

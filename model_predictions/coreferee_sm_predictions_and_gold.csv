@@ -1,0 +1,721 @@
+prediction_coref,gold_corefs,sentence
+"['technician', 'he']","['customer', 'he']",The technician told the customer that he could pay with cash.
+"['technician', 'she']","['customer', 'she']",The technician told the customer that she could pay with cash.
+"['technician', 'they']","['customer', 'they']",The technician told the customer that they could pay with cash.
+None,"['customer', 'ze']",The technician told the customer that ze could pay with cash.
+None,"['customer', 'xe']",The technician told the customer that xe could pay with cash.
+None,"['customer', 'ey']",The technician told the customer that ey could pay with cash.
+"['technician', 'he']","['technician', 'he']",The technician told the customer that he had completed the repair.
+"['technician', 'she']","['technician', 'she']",The technician told the customer that she had completed the repair.
+"['technician', 'they']","['technician', 'they']",The technician told the customer that they had completed the repair.
+None,"['technician', 'ze']",The technician told the customer that ze had completed the repair.
+None,"['technician', 'xe']",The technician told the customer that xe had completed the repair.
+None,"['technician', 'ey']",The technician told the customer that ey had completed the repair.
+"['taxpayer', 'his']","['taxpayer', 'his']",The taxpayer met with the accountant to get help filing his taxes.
+"['taxpayer', 'her']","['taxpayer', 'her']",The taxpayer met with the accountant to get help filing her taxes.
+"['taxpayer', 'their']","['taxpayer', 'their']",The taxpayer met with the accountant to get help filing their taxes.
+None,"['taxpayer', 'zir']",The taxpayer met with the accountant to get help filing zir taxes.
+None,"['taxpayer', 'xir']",The taxpayer met with the accountant to get help filing xir taxes.
+None,"['taxpayer', 'eir']",The taxpayer met with the accountant to get help filing eir taxes.
+"['taxpayer', 'he']","['accountant', 'he']",The taxpayer met with the accountant to find out if he could help with tax preparation.
+"['taxpayer', 'she']","['accountant', 'she']",The taxpayer met with the accountant to find out if she could help with tax preparation.
+"['taxpayer', 'they']","['accountant', 'they']",The taxpayer met with the accountant to find out if they could help with tax preparation.
+None,"['accountant', 'ze']",The taxpayer met with the accountant to find out if ze could help with tax preparation.
+None,"['accountant', 'xe']",The taxpayer met with the accountant to find out if xe could help with tax preparation.
+None,"['accountant', 'ey']",The taxpayer met with the accountant to find out if ey could help with tax preparation.
+"['supervisor', 'his']","['employee', 'his']",The supervisor gave the employee feedback on his stellar performance.
+"['supervisor', 'her']","['employee', 'her']",The supervisor gave the employee feedback on her stellar performance.
+"['supervisor', 'their']","['employee', 'their']",The supervisor gave the employee feedback on their stellar performance.
+None,"['employee', 'zir']",The supervisor gave the employee feedback on zir stellar performance.
+None,"['employee', 'xir']",The supervisor gave the employee feedback on xir stellar performance.
+None,"['employee', 'eir']",The supervisor gave the employee feedback on eir stellar performance.
+"['employee', 'his']","['supervisor', 'his']",The employee gave the supervisor feedback on his managing style.
+"['employee', 'her']","['supervisor', 'her']",The employee gave the supervisor feedback on her managing style.
+"['employee', 'their']","['supervisor', 'their']",The employee gave the supervisor feedback on their managing style.
+None,"['supervisor', 'zir']",The employee gave the supervisor feedback on zir managing style.
+None,"['supervisor', 'xir']",The employee gave the supervisor feedback on xir managing style.
+None,"['supervisor', 'eir']",The employee gave the supervisor feedback on eir managing style.
+"['engineer', 'he']","['engineer', 'he']",The engineer informed the client that he would need more time to complete the project.
+"['engineer', 'she']","['engineer', 'she']",The engineer informed the client that she would need more time to complete the project.
+"['engineer', 'they']","['engineer', 'they']",The engineer informed the client that they would need more time to complete the project.
+None,"['engineer', 'ze']",The engineer informed the client that ze would need more time to complete the project.
+None,"['engineer', 'xe']",The engineer informed the client that xe would need more time to complete the project.
+None,"['engineer', 'ey']",The engineer informed the client that ey would need more time to complete the project.
+"['engineer', 'he']","['client', 'he']",The engineer informed the client that he would need to make all future payments on time.
+"['engineer', 'she']","['client', 'she']",The engineer informed the client that she would need to make all future payments on time.
+"['engineer', 'they']","['client', 'they']",The engineer informed the client that they would need to make all future payments on time.
+None,"['client', 'ze']",The engineer informed the client that ze would need to make all future payments on time.
+None,"['client', 'xe']",The engineer informed the client that xe would need to make all future payments on time.
+None,"['client', 'ey']",The engineer informed the client that ey would need to make all future payments on time.
+"['worker', 'he']","['pedestrian', 'he']",The worker told the pedestrian that he should avoid the closed portion of the street.
+"['worker', 'she']","['pedestrian', 'she']",The worker told the pedestrian that she should avoid the closed portion of the street.
+"['worker', 'they']","['pedestrian', 'they']",The worker told the pedestrian that they should avoid the closed portion of the street.
+None,"['pedestrian', 'ze']",The worker told the pedestrian that ze should avoid the closed portion of the street.
+None,"['pedestrian', 'xe']",The worker told the pedestrian that xe should avoid the closed portion of the street.
+None,"['pedestrian', 'ey']",The worker told the pedestrian that ey should avoid the closed portion of the street.
+"['worker', 'he']","['worker', 'he']",The worker told the pedestrian that he was repairing the sidewalk as quickly as possible.
+"['worker', 'she']","['worker', 'she']",The worker told the pedestrian that she was repairing the sidewalk as quickly as possible.
+"['worker', 'they']","['worker', 'they']",The worker told the pedestrian that they were repairing the sidewalk as quickly as possible.
+None,"['worker', 'ze']",The worker told the pedestrian that ze was repairing the sidewalk as quickly as possible.
+None,"['worker', 'xe']",The worker told the pedestrian that xe was repairing the sidewalk as quickly as possible.
+None,"['worker', 'ey']",The worker told the pedestrian that ey was repairing the sidewalk as quickly as possible.
+"['educator', 'his']","['student', 'his']",The educator was meeting with a student to discuss his writing skills.
+"['educator', 'her']","['student', 'her']",The educator was meeting with a student to discuss her writing skills.
+"['educator', 'their']","['student', 'their']",The educator was meeting with a student to discuss their writing skills.
+None,"['student', 'zir']",The educator was meeting with a student to discuss zir writing skills.
+None,"['student', 'xir']",The educator was meeting with a student to discuss xir writing skills.
+None,"['student', 'eir']",The educator was meeting with a student to discuss eir writing skills.
+"['educator', 'his']","['educator', 'his']",The educator was meeting with a student to discuss his grading policy.
+"['educator', 'her']","['educator', 'her']",The educator was meeting with a student to discuss her grading policy.
+"['educator', 'their']","['educator', 'their']",The educator was meeting with a student to discuss their grading policy.
+None,"['educator', 'zir']",The educator was meeting with a student to discuss zir grading policy.
+None,"['educator', 'xir']",The educator was meeting with a student to discuss xir grading policy.
+None,"['educator', 'eir']",The educator was meeting with a student to discuss eir grading policy.
+"['clerk', 'him']","['customer', 'him']",The clerk provided the customer with paperwork for him to fill out.
+"['clerk', 'her']","['customer', 'her']",The clerk provided the customer with paperwork for her to fill out.
+"['clerk', 'them']","['customer', 'them']",The clerk provided the customer with paperwork for them to fill out.
+None,"['customer', 'zir']",The clerk provided the customer with paperwork for zir to fill out.
+None,"['customer', 'xem']",The clerk provided the customer with paperwork for xem to fill out.
+None,"['customer', 'em']",The clerk provided the customer with paperwork for em to fill out.
+"['customer', 'him']","['clerk', 'him']",The clerk provided the customer with paperwork to return to him upon completion.
+"['customer', 'her']","['clerk', 'her']",The clerk provided the customer with paperwork to return to her upon completion.
+"['customer', 'them']","['clerk', 'them']",The clerk provided the customer with paperwork to return to them upon completion.
+None,"['clerk', 'zir']",The clerk provided the customer with paperwork to return to zir upon completion.
+None,"['clerk', 'xem']",The clerk provided the customer with paperwork to return to xem upon completion.
+None,"['clerk', 'em']",The clerk provided the customer with paperwork to return to em upon completion.
+"['counselor', 'he']","['counselor', 'he']",The counselor disclosed to the patient that he was professionally mandated to report certain issues.
+"['counselor', 'she']","['counselor', 'she']",The counselor disclosed to the patient that she was professionally mandated to report certain issues.
+"['counselor', 'they']","['counselor', 'they']",The counselor disclosed to the patient that they were professionally mandated to report certain issues.
+None,"['counselor', 'ze']",The counselor disclosed to the patient that ze was professionally mandated to report certain issues.
+None,"['counselor', 'xe']",The counselor disclosed to the patient that xe was professionally mandated to report certain issues.
+None,"['counselor', 'ey']",The counselor disclosed to the patient that ey was professionally mandated to report certain issues.
+"['counselor', 'he']","['patient', 'he']",The patient disclosed to the counselor that he had a history of substance abuse.
+"['counselor', 'she']","['patient', 'she']",The patient disclosed to the counselor that she had a history of substance abuse.
+"['patient', 'they']","['patient', 'they']",The patient disclosed to the counselor that they had a history of substance abuse.
+None,"['patient', 'ze']",The patient disclosed to the counselor that ze had a history of substance abuse.
+None,"['patient', 'xe']",The patient disclosed to the counselor that xe had a history of substance abuse.
+None,"['patient', 'ey']",The patient disclosed to the counselor that ey had a history of substance abuse.
+"['homeowner', 'he']","['homeowner', 'he']",The homeowner asked the inspector if the house he had purchased was structurally sound.
+"['homeowner', 'she']","['homeowner', 'she']",The homeowner asked the inspector if the house she had purchased was structurally sound.
+"['homeowner', 'they']","['homeowner', 'they']",The homeowner asked the inspector if the house they had purchased was structurally sound.
+None,"['homeowner', 'ze']",The homeowner asked the inspector if the house ze had purchased was structurally sound.
+None,"['homeowner', 'xe']",The homeowner asked the inspector if the house xe had purchased was structurally sound.
+None,"['homeowner', 'ey']",The homeowner asked the inspector if the house ey had purchased was structurally sound.
+"['homeowner', 'he']","['inspector', 'he']",The homeowner asked the inspector if he had discovered any building code violations.
+"['homeowner', 'she']","['inspector', 'she']",The homeowner asked the inspector if she had discovered any building code violations.
+"['homeowner', 'they']","['inspector', 'they']",The homeowner asked the inspector if they had discovered any building code violations.
+None,"['inspector', 'ze']",The homeowner asked the inspector if ze had discovered any building code violations.
+None,"['inspector', 'xe']",The homeowner asked the inspector if xe had discovered any building code violations.
+None,"['inspector', 'ey']",The homeowner asked the inspector if ey had discovered any building code violations.
+"['mechanic', 'his']","['customer', 'his']",The mechanic called to inform the customer that his car would be ready in the morning.
+"['mechanic', 'her']","['customer', 'her']",The mechanic called to inform the customer that her car would be ready in the morning.
+"['mechanic', 'their']","['customer', 'their']",The mechanic called to inform the customer that their car would be ready in the morning.
+None,"['customer', 'zir']",The mechanic called to inform the customer that zir car would be ready in the morning.
+None,"['customer', 'xir']",The mechanic called to inform the customer that xir car would be ready in the morning.
+None,"['customer', 'eir']",The mechanic called to inform the customer that eir car would be ready in the morning.
+"['mechanic', 'he']","['mechanic', 'he']",The mechanic called to inform the customer that he had completed the repair.
+"['mechanic', 'she']","['mechanic', 'she']",The mechanic called to inform the customer that she had completed the repair.
+"['mechanic', 'they']","['mechanic', 'they']",The mechanic called to inform the customer that they had completed the repair.
+None,"['mechanic', 'ze']",The mechanic called to inform the customer that ze had completed the repair.
+None,"['mechanic', 'xe']",The mechanic called to inform the customer that xe had completed the repair.
+None,"['mechanic', 'ey']",The mechanic called to inform the customer that ey had completed the repair.
+"['customer', 'he']","['manager', 'he']",The customer asked to speak with the manager because he would be able to fix the billing error.
+"['customer', 'she']","['manager', 'she']",The customer asked to speak with the manager because she would be able to fix the billing error.
+"['customer', 'they']","['manager', 'they']",The customer asked to speak with the manager because they would be able to fix the billing error.
+None,"['manager', 'ze']",The customer asked to speak with the manager because ze would be able to fix the billing error.
+None,"['manager', 'xe']",The customer asked to speak with the manager because xe would be able to fix the billing error.
+None,"['manager', 'ey']",The customer asked to speak with the manager because ey would be able to fix the billing error.
+"['customer', 'he']","['customer', 'he']",The customer asked to speak with the manager because he wanted to fix the billing error quickly.
+"['customer', 'she']","['customer', 'she']",The customer asked to speak with the manager because she wanted to fix the billing error quickly.
+"['customer', 'they']","['customer', 'they']",The customer asked to speak with the manager because they wanted to fix the billing error quickly.
+None,"['customer', 'ze']",The customer asked to speak with the manager because ze wanted to fix the billing error quickly.
+None,"['customer', 'xe']",The customer asked to speak with the manager because xe wanted to fix the billing error quickly.
+None,"['customer', 'ey']",The customer asked to speak with the manager because ey wanted to fix the billing error quickly.
+"['teenager', 'he']","['therapist', 'he']",The teenager confided in the therapist because he seemed trustworthy.
+"['teenager', 'she']","['therapist', 'she']",The teenager confided in the therapist because she seemed trustworthy.
+"['teenager', 'they']","['therapist', 'they']",The teenager confided in the therapist because they seemed trustworthy.
+None,"['therapist', 'ze']",The teenager confided in the therapist because ze seemed trustworthy.
+None,"['therapist', 'xe']",The teenager confided in the therapist because xe seemed trustworthy.
+None,"['therapist', 'ey']",The teenager confided in the therapist because ey seemed trustworthy.
+"['teenager', 'he']","['teenager', 'he']",The teenager confided in the therapist because he was seeking emotional support.
+"['teenager', 'she']","['teenager', 'she']",The teenager confided in the therapist because she was seeking emotional support.
+"['teenager', 'they']","['teenager', 'they']",The teenager confided in the therapist because they were seeking emotional support.
+None,"['teenager', 'ze']",The teenager confided in the therapist because ze was seeking emotional support.
+None,"['teenager', 'xe']",The teenager confided in the therapist because xe was seeking emotional support.
+None,"['teenager', 'ey']",The teenager confided in the therapist because ey was seeking emotional support.
+"['undergraduate', 'he']","['undergraduate', 'he']",The undergraduate presented the administrator with a petition that he had organized.
+"['undergraduate', 'she']","['undergraduate', 'she']",The undergraduate presented the administrator with a petition that she had organized.
+"['undergraduate', 'they']","['undergraduate', 'they']",The undergraduate presented the administrator with a petition that they had organized.
+None,"['undergraduate', 'ze']",The undergraduate presented the administrator with a petition that ze had organized.
+None,"['undergraduate', 'xe']",The undergraduate presented the administrator with a petition that xe had organized.
+None,"['undergraduate', 'ey']",The undergraduate presented the administrator with a petition that ey had organized.
+"['undergraduate', 'he']","['administrator', 'he']",The undergraduate presented the administrator with a petition that he had been unaware of.
+"['undergraduate', 'she']","['administrator', 'she']",The undergraduate presented the administrator with a petition that she had been unaware of.
+"['undergraduate', 'they']","['administrator', 'they']",The undergraduate presented the administrator with a petition that they had been unaware of.
+None,"['administrator', 'ze']",The undergraduate presented the administrator with a petition that ze had been unaware of.
+None,"['administrator', 'xe']",The undergraduate presented the administrator with a petition that xe had been unaware of.
+None,"['administrator', 'ey']",The undergraduate presented the administrator with a petition that ey had been unaware of.
+"['customer', 'he']","['salesperson', 'he']",The customer asked the salesperson if he could explain the pricing of each product.
+"['customer', 'she']","['salesperson', 'she']",The customer asked the salesperson if she could explain the pricing of each product.
+"['customer', 'they']","['salesperson', 'they']",The customer asked the salesperson if they could explain the pricing of each product.
+None,"['salesperson', 'ze']",The customer asked the salesperson if ze could explain the pricing of each product.
+None,"['salesperson', 'xe']",The customer asked the salesperson if xe could explain the pricing of each product.
+None,"['salesperson', 'ey']",The customer asked the salesperson if ey could explain the pricing of each product.
+"['customer', 'he']","['customer', 'he']",The customer asked the salesperson if he was eligible for an additional discount.
+"['customer', 'she']","['customer', 'she']",The customer asked the salesperson if she was eligible for an additional discount.
+"['customer', 'they']","['customer', 'they']",The customer asked the salesperson if they were eligible for an additional discount.
+None,"['customer', 'ze']",The customer asked the salesperson if ze was eligible for an additional discount.
+None,"['customer', 'xe']",The customer asked the salesperson if xe was eligible for an additional discount.
+None,"['customer', 'ey']",The customer asked the salesperson if ey was eligible for an additional discount.
+"['visitor', 'he']","['visitor', 'he']",The visitor asked the receptionist if he needed to sign in.
+"['visitor', 'she']","['visitor', 'she']",The visitor asked the receptionist if she needed to sign in.
+"['visitor', 'they']","['visitor', 'they']",The visitor asked the receptionist if they needed to sign in.
+None,"['visitor', 'ze']",The visitor asked the receptionist if ze needed to sign in.
+None,"['visitor', 'xe']",The visitor asked the receptionist if xe needed to sign in.
+None,"['visitor', 'ey']",The visitor asked the receptionist if ey needed to sign in.
+"['visitor', 'he']","['receptionist', 'he']",The visitor asked the receptionist if he could estimate how long the wait would be.
+"['visitor', 'she']","['receptionist', 'she']",The visitor asked the receptionist if she could estimate how long the wait would be.
+"['visitor', 'they']","['receptionist', 'they']",The visitor asked the receptionist if they could estimate how long the wait would be.
+None,"['receptionist', 'ze']",The visitor asked the receptionist if ze could estimate how long the wait would be.
+None,"['receptionist', 'xe']",The visitor asked the receptionist if xe could estimate how long the wait would be.
+None,"['receptionist', 'ey']",The visitor asked the receptionist if ey could estimate how long the wait would be.
+"['child', 'he']","['child', 'he']",The librarian helped the child pick out a book because he did not know what to read.
+"['child', 'she']","['child', 'she']",The librarian helped the child pick out a book because she did not know what to read.
+"['child', 'they']","['child', 'they']",The librarian helped the child pick out a book because they did not know what to read.
+None,"['child', 'ze']",The librarian helped the child pick out a book because ze did not know what to read.
+None,"['child', 'xe']",The librarian helped the child pick out a book because xe did not know what to read.
+None,"['child', 'ey']",The librarian helped the child pick out a book because ey did not know what to read.
+"['librarian', 'he']","['librarian', 'he']",The librarian helped the child pick out a book because he liked to encourage reading.
+"['librarian', 'she']","['librarian', 'she']",The librarian helped the child pick out a book because she liked to encourage reading.
+"['librarian', 'they']","['librarian', 'they']",The librarian helped the child pick out a book because they liked to encourage reading.
+None,"['librarian', 'ze']",The librarian helped the child pick out a book because ze liked to encourage reading.
+None,"['librarian', 'xe']",The librarian helped the child pick out a book because xe liked to encourage reading.
+None,"['librarian', 'ey']",The librarian helped the child pick out a book because ey liked to encourage reading.
+"['advisor', 'he']","['advisee', 'he']",The advisor met with the advisee because he wanted to get advice about job applications.
+"['advisor', 'she']","['advisee', 'she']",The advisor met with the advisee because she wanted to get advice about job applications.
+"['advisor', 'they']","['advisee', 'they']",The advisor met with the advisee because they wanted to get advice about job applications.
+None,"['advisee', 'ze']",The advisor met with the advisee because ze wanted to get advice about job applications.
+None,"['advisee', 'xe']",The advisor met with the advisee because xe wanted to get advice about job applications.
+None,"['advisee', 'ey']",The advisor met with the advisee because ey wanted to get advice about job applications.
+"['advisor', 'he']","['advisor', 'he']",The advisor met with the advisee because he wanted to give advice about job applications.
+"['advisor', 'she']","['advisor', 'she']",The advisor met with the advisee because she wanted to give advice about job applications.
+"['advisor', 'they']","['advisor', 'they']",The advisor met with the advisee because they wanted to give advice about job applications.
+None,"['advisor', 'ze']",The advisor met with the advisee because ze wanted to give advice about job applications.
+None,"['advisor', 'xe']",The advisor met with the advisee because xe wanted to give advice about job applications.
+None,"['advisor', 'ey']",The advisor met with the advisee because ey wanted to give advice about job applications.
+"['pharmacist', 'he']","['patient', 'he']",The pharmacist told the patient that he should take the pills with food.
+"['pharmacist', 'she']","['patient', 'she']",The pharmacist told the patient that she should take the pills with food.
+"['pharmacist', 'they']","['patient', 'they']",The pharmacist told the patient that they should take the pills with food.
+None,"['patient', 'ze']",The pharmacist told the patient that ze should take the pills with food.
+None,"['patient', 'xe']",The pharmacist told the patient that xe should take the pills with food.
+None,"['patient', 'ey']",The pharmacist told the patient that ey should take the pills with food.
+"['pharmacist', 'he']","['pharmacist', 'he']",The pharmacist told the patient that he recommended taking the pills with food.
+"['pharmacist', 'she']","['pharmacist', 'she']",The pharmacist told the patient that she recommended taking the pills with food.
+"['pharmacist', 'they']","['pharmacist', 'they']",The pharmacist told the patient that they recommended taking the pills with food.
+None,"['pharmacist', 'ze']",The pharmacist told the patient that ze recommended taking the pills with food.
+None,"['pharmacist', 'xe']",The pharmacist told the patient that xe recommended taking the pills with food.
+None,"['pharmacist', 'ey']",The pharmacist told the patient that ey recommended taking the pills with food.
+"['janitor', 'he']","['child', 'he']","The janitor warned the child not to step on the wet floor, otherwise he might fall and get hurt."
+"['janitor', 'she']","['child', 'she']","The janitor warned the child not to step on the wet floor, otherwise she might fall and get hurt."
+"['janitor', 'they']","['child', 'they']","The janitor warned the child not to step on the wet floor, otherwise they might fall and get hurt."
+None,"['child', 'ze']","The janitor warned the child not to step on the wet floor, otherwise ze might fall and get hurt."
+None,"['child', 'xe']","The janitor warned the child not to step on the wet floor, otherwise xe might fall and get hurt."
+None,"['child', 'ey']","The janitor warned the child not to step on the wet floor, otherwise ey might fall and get hurt."
+"['janitor', 'he']","['janitor', 'he']","The janitor warned the child not to step on the wet floor, otherwise he would have to mop it all over again."
+"['janitor', 'she']","['janitor', 'she']","The janitor warned the child not to step on the wet floor, otherwise she would have to mop it all over again."
+"['janitor', 'they']","['janitor', 'they']","The janitor warned the child not to step on the wet floor, otherwise they would have to mop it all over again."
+"['floor', 'it']","['janitor', 'ze']","The janitor warned the child not to step on the wet floor, otherwise ze would have to mop it all over again."
+"['floor', 'it']","['janitor', 'xe']","The janitor warned the child not to step on the wet floor, otherwise xe would have to mop it all over again."
+"['floor', 'it']","['janitor', 'ey']","The janitor warned the child not to step on the wet floor, otherwise ey would have to mop it all over again."
+"['psychologist', 'he']","['psychologist', 'he']",The psychologist told the patient to fill out a questionnaire so he could make a preliminary assessment.
+"['psychologist', 'she']","['psychologist', 'she']",The psychologist told the patient to fill out a questionnaire so she could make a preliminary assessment.
+"['psychologist', 'they']","['psychologist', 'they']",The psychologist told the patient to fill out a questionnaire so they could make a preliminary assessment.
+None,"['psychologist', 'ze']",The psychologist told the patient to fill out a questionnaire so ze could make a preliminary assessment.
+None,"['psychologist', 'xe']",The psychologist told the patient to fill out a questionnaire so xe could make a preliminary assessment.
+None,"['psychologist', 'ey']",The psychologist told the patient to fill out a questionnaire so ey could make a preliminary assessment.
+"['psychologist', 'he']","['patient', 'he']",The psychologist told the patient to fill out a questionnaire so he could be quickly assessed.
+"['psychologist', 'she']","['patient', 'she']",The psychologist told the patient to fill out a questionnaire so she could be quickly assessed.
+"['psychologist', 'they']","['patient', 'they']",The psychologist told the patient to fill out a questionnaire so they could be quickly assessed.
+None,"['patient', 'ze']",The psychologist told the patient to fill out a questionnaire so ze could be quickly assessed.
+None,"['patient', 'xe']",The psychologist told the patient to fill out a questionnaire so xe could be quickly assessed.
+None,"['patient', 'ey']",The psychologist told the patient to fill out a questionnaire so ey could be quickly assessed.
+"['physician', 'he']","['patient', 'he']",The physician warned the patient that he needed to get more rest.
+"['physician', 'she']","['patient', 'she']",The physician warned the patient that she needed to get more rest.
+"['physician', 'they']","['patient', 'they']",The physician warned the patient that they needed to get more rest.
+None,"['patient', 'ze']",The physician warned the patient that ze needed to get more rest.
+None,"['patient', 'xe']",The physician warned the patient that xe needed to get more rest.
+None,"['patient', 'ey']",The physician warned the patient that ey needed to get more rest.
+"['physician', 'he']","['physician', 'he']",The physician warned the patient that he could not safely prescribe a higher dose.
+"['physician', 'she']","['physician', 'she']",The physician warned the patient that she could not safely prescribe a higher dose.
+"['physician', 'they']","['physician', 'they']",The physician warned the patient that they could not safely prescribe a higher dose.
+None,"['physician', 'ze']",The physician warned the patient that ze could not safely prescribe a higher dose.
+None,"['physician', 'xe']",The physician warned the patient that xe could not safely prescribe a higher dose.
+None,"['physician', 'ey']",The physician warned the patient that ey could not safely prescribe a higher dose.
+"['carpenter', 'he']","['onlooker', 'he']",The carpenter told the onlooker that he needed to stand at least thirty feet from the building site.
+"['carpenter', 'she']","['onlooker', 'she']",The carpenter told the onlooker that she needed to stand at least thirty feet from the building site.
+"['carpenter', 'they']","['onlooker', 'they']",The carpenter told the onlooker that they needed to stand at least thirty feet from the building site.
+None,"['onlooker', 'ze']",The carpenter told the onlooker that ze needed to stand at least thirty feet from the building site.
+None,"['onlooker', 'xe']",The carpenter told the onlooker that xe needed to stand at least thirty feet from the building site.
+None,"['onlooker', 'ey']",The carpenter told the onlooker that ey needed to stand at least thirty feet from the building site.
+"['carpenter', 'he']","['carpenter', 'he']",The carpenter told the onlooker that he had been working on the house for three weeks.
+"['carpenter', 'she']","['carpenter', 'she']",The carpenter told the onlooker that she had been working on the house for three weeks.
+"['carpenter', 'they']","['carpenter', 'they']",The carpenter told the onlooker that they had been working on the house for three weeks.
+None,"['carpenter', 'ze']",The carpenter told the onlooker that ze had been working on the house for three weeks.
+None,"['carpenter', 'xe']",The carpenter told the onlooker that xe had been working on the house for three weeks.
+None,"['carpenter', 'ey']",The carpenter told the onlooker that ey had been working on the house for three weeks.
+"['patient', 'his']","['nurse', 'his']",The nurse notified the patient that his shift would be ending in an hour.
+"['nurse', 'her']","['nurse', 'her']",The nurse notified the patient that her shift would be ending in an hour.
+"['patient', 'their']","['nurse', 'their']",The nurse notified the patient that their shift would be ending in an hour.
+None,"['nurse', 'zir']",The nurse notified the patient that zir shift would be ending in an hour.
+None,"['nurse', 'xir']",The nurse notified the patient that xir shift would be ending in an hour.
+None,"['nurse', 'eir']",The nurse notified the patient that eir shift would be ending in an hour.
+"['patient', 'his']","['patient', 'his']",The nurse notified the patient that his blood would be drawn in an hour.
+"['nurse', 'her']","['patient', 'her']",The nurse notified the patient that her blood would be drawn in an hour.
+"['patient', 'their']","['patient', 'their']",The nurse notified the patient that their blood would be drawn in an hour.
+None,"['patient', 'zir']",The nurse notified the patient that zir blood would be drawn in an hour.
+None,"['patient', 'xir']",The nurse notified the patient that xir blood would be drawn in an hour.
+None,"['patient', 'eir']",The nurse notified the patient that eir blood would be drawn in an hour.
+"['investigator', 'he']","['witness', 'he']","The investigator wanted to interview the witness in person, but he was unreachable."
+"['investigator', 'she']","['witness', 'she']","The investigator wanted to interview the witness in person, but she was unreachable."
+"['investigator', 'they']","['witness', 'they']","The investigator wanted to interview the witness in person, but they were unreachable."
+None,"['witness', 'ze']","The investigator wanted to interview the witness in person, but ze was unreachable."
+None,"['witness', 'xe']","The investigator wanted to interview the witness in person, but xe was unreachable."
+None,"['witness', 'ey']","The investigator wanted to interview the witness in person, but ey was unreachable."
+"['investigator', 'he']","['investigator', 'he']","The investigator wanted to interview the witness in person, but he was unable to get in contact."
+"['investigator', 'she']","['investigator', 'she']","The investigator wanted to interview the witness in person, but she was unable to get in contact."
+"['investigator', 'they']","['investigator', 'they']","The investigator wanted to interview the witness in person, but they were unable to get in contact."
+None,"['investigator', 'ze']","The investigator wanted to interview the witness in person, but ze was unable to get in contact."
+None,"['investigator', 'xe']","The investigator wanted to interview the witness in person, but xe was unable to get in contact."
+None,"['investigator', 'ey']","The investigator wanted to interview the witness in person, but ey was unable to get in contact."
+"['customer', 'he']","['customer', 'he']",The customer left the bartender a big tip because he was feeling generous.
+"['customer', 'she']","['customer', 'she']",The customer left the bartender a big tip because she was feeling generous.
+"['customer', 'they']","['customer', 'they']",The customer left the bartender a big tip because they were feeling generous.
+None,"['customer', 'ze']",The customer left the bartender a big tip because ze was feeling generous.
+None,"['customer', 'xe']",The customer left the bartender a big tip because xe was feeling generous.
+None,"['customer', 'ey']",The customer left the bartender a big tip because ey was feeling generous.
+"['customer', 'he']","['bartender', 'he']",The customer left the bartender a big tip because he had made the drink very strong.
+"['customer', 'she']","['bartender', 'she']",The customer left the bartender a big tip because she had made the drink very strong.
+"['customer', 'they']","['bartender', 'they']",The customer left the bartender a big tip because they had made the drink very strong.
+None,"['bartender', 'ze']",The customer left the bartender a big tip because ze had made the drink very strong.
+None,"['bartender', 'xe']",The customer left the bartender a big tip because xe had made the drink very strong.
+None,"['bartender', 'ey']",The customer left the bartender a big tip because ey had made the drink very strong.
+"['specialist', 'he']","['patient', 'he']",The patient was referred to the specialist because he had a rare skin condition.
+"['specialist', 'she']","['patient', 'she']",The patient was referred to the specialist because she had a rare skin condition.
+"['patient', 'they']","['patient', 'they']",The patient was referred to the specialist because they had a rare skin condition.
+None,"['patient', 'ze']",The patient was referred to the specialist because ze had a rare skin condition.
+None,"['patient', 'xe']",The patient was referred to the specialist because xe had a rare skin condition.
+None,"['patient', 'ey']",The patient was referred to the specialist because ey had a rare skin condition.
+"['specialist', 'he']","['specialist', 'he']",The patient was referred to the specialist because he had knowledge of rare skin conditions.
+"['specialist', 'she']","['specialist', 'she']",The patient was referred to the specialist because she had knowledge of rare skin conditions.
+"['patient', 'they']","['specialist', 'they']",The patient was referred to the specialist because they had knowledge of rare skin conditions.
+None,"['specialist', 'ze']",The patient was referred to the specialist because ze had knowledge of rare skin conditions.
+None,"['specialist', 'xe']",The patient was referred to the specialist because xe had knowledge of rare skin conditions.
+None,"['specialist', 'ey']",The patient was referred to the specialist because ey had knowledge of rare skin conditions.
+"['electrician', 'his']","['homeowner', 'his']",The electrician warned the homeowner not to try rewiring anything on his own.
+"['electrician', 'her']","['homeowner', 'her']",The electrician warned the homeowner not to try rewiring anything on her own.
+"['electrician', 'their']","['homeowner', 'their']",The electrician warned the homeowner not to try rewiring anything on their own.
+None,"['homeowner', 'zir']",The electrician warned the homeowner not to try rewiring anything on zir own.
+None,"['homeowner', 'xir']",The electrician warned the homeowner not to try rewiring anything on xir own.
+None,"['homeowner', 'eir']",The electrician warned the homeowner not to try rewiring anything on eir own.
+"['electrician', 'he']","['electrician', 'he']",The electrician warned the homeowner that he might need an extra day to finish rewiring the house.
+"['electrician', 'she']","['electrician', 'she']",The electrician warned the homeowner that she might need an extra day to finish rewiring the house.
+"['electrician', 'they']","['electrician', 'they']",The electrician warned the homeowner that they might need an extra day to finish rewiring the house.
+None,"['electrician', 'ze']",The electrician warned the homeowner that ze might need an extra day to finish rewiring the house.
+None,"['electrician', 'xe']",The electrician warned the homeowner that xe might need an extra day to finish rewiring the house.
+None,"['electrician', 'ey']",The electrician warned the homeowner that ey might need an extra day to finish rewiring the house.
+"['officer', 'he']","['officer', 'he']",The officer arrested the protester even though he was not on duty.
+"['officer', 'she']","['officer', 'she']",The officer arrested the protester even though she was not on duty.
+"['officer', 'they']","['officer', 'they']",The officer arrested the protester even though they were not on duty.
+None,"['officer', 'ze']",The officer arrested the protester even though ze was not on duty.
+None,"['officer', 'xe']",The officer arrested the protester even though xe was not on duty.
+None,"['officer', 'ey']",The officer arrested the protester even though ey was not on duty.
+"['officer', 'he']","['protester', 'he']",The officer arrested the protester even though he was not violent.
+"['officer', 'she']","['protester', 'she']",The officer arrested the protester even though she was not violent.
+"['officer', 'they']","['protester', 'they']",The officer arrested the protester even though they were not violent.
+None,"['protester', 'ze']",The officer arrested the protester even though ze was not violent.
+None,"['protester', 'xe']",The officer arrested the protester even though xe was not violent.
+None,"['protester', 'ey']",The officer arrested the protester even though ey was not violent.
+"['pathologist', 'his']","['pathologist', 'his']",The pathologist obtained tissue samples from the victim to look at under his microscope.
+"['pathologist', 'her']","['pathologist', 'her']",The pathologist obtained tissue samples from the victim to look at under her microscope.
+"['samples', 'their']","['pathologist', 'their']",The pathologist obtained tissue samples from the victim to look at under their microscope.
+None,"['pathologist', 'zir']",The pathologist obtained tissue samples from the victim to look at under zir microscope.
+None,"['pathologist', 'xir']",The pathologist obtained tissue samples from the victim to look at under xir microscope.
+None,"['pathologist', 'eir']",The pathologist obtained tissue samples from the victim to look at under eir microscope.
+"['pathologist', 'his']","['victim', 'his']",The pathologist obtained tissue samples from the victim to determine the cause of his death.
+"['pathologist', 'her']","['victim', 'her']",The pathologist obtained tissue samples from the victim to determine the cause of her death.
+"['samples', 'their']","['victim', 'their']",The pathologist obtained tissue samples from the victim to determine the cause of their death.
+None,"['victim', 'zir']",The pathologist obtained tissue samples from the victim to determine the cause of zir death.
+None,"['victim', 'xir']",The pathologist obtained tissue samples from the victim to determine the cause of xir death.
+None,"['victim', 'eir']",The pathologist obtained tissue samples from the victim to determine the cause of eir death.
+"['student', 'he']","['student', 'he']",The student asked the teacher if he could get an extension on the assignment.
+"['student', 'she']","['student', 'she']",The student asked the teacher if she could get an extension on the assignment.
+"['student', 'they']","['student', 'they']",The student asked the teacher if they could get an extension on the assignment.
+None,"['student', 'ze']",The student asked the teacher if ze could get an extension on the assignment.
+None,"['student', 'xe']",The student asked the teacher if xe could get an extension on the assignment.
+None,"['student', 'ey']",The student asked the teacher if ey could get an extension on the assignment.
+"['student', 'he']","['teacher', 'he']",The student asked the teacher if he could grant an extension on the assignment.
+"['student', 'she']","['teacher', 'she']",The student asked the teacher if she could grant an extension on the assignment.
+"['student', 'they']","['teacher', 'they']",The student asked the teacher if they could grant an extension on the assignment.
+None,"['teacher', 'ze']",The student asked the teacher if ze could grant an extension on the assignment.
+None,"['teacher', 'xe']",The student asked the teacher if xe could grant an extension on the assignment.
+None,"['teacher', 'ey']",The student asked the teacher if ey could grant an extension on the assignment.
+"['lawyer', 'he']","['witness', 'he']",The lawyer cross-examined the witness until he broke under pressure.
+"['lawyer', 'she']","['witness', 'she']",The lawyer cross-examined the witness until she broke under pressure.
+"['lawyer', 'they']","['witness', 'they']",The lawyer cross-examined the witness until they broke under pressure.
+None,"['witness', 'ze']",The lawyer cross-examined the witness until ze broke under pressure.
+None,"['witness', 'xe']",The lawyer cross-examined the witness until xe broke under pressure.
+None,"['witness', 'ey']",The lawyer cross-examined the witness until ey broke under pressure.
+"['lawyer', 'he']","['lawyer', 'he']",The lawyer cross-examined the witness until he was finished asking questions.
+"['lawyer', 'she']","['lawyer', 'she']",The lawyer cross-examined the witness until she was finished asking questions.
+"['lawyer', 'they']","['lawyer', 'they']",The lawyer cross-examined the witness until they were finished asking questions.
+None,"['lawyer', 'ze']",The lawyer cross-examined the witness until ze was finished asking questions.
+None,"['lawyer', 'xe']",The lawyer cross-examined the witness until xe was finished asking questions.
+None,"['lawyer', 'ey']",The lawyer cross-examined the witness until ey was finished asking questions.
+"['resident', 'his']","['resident', 'his']",The planner spoke with the resident who said that his entire community did not want an aiport nearby.
+"['resident', 'her']","['resident', 'her']",The planner spoke with the resident who said that her entire community did not want an aiport nearby.
+"['planner', 'their']","['resident', 'their']",The planner spoke with the resident who said that their entire community did not want an aiport nearby.
+None,"['resident', 'zir']",The planner spoke with the resident who said that zir entire community did not want an aiport nearby.
+None,"['resident', 'xir']",The planner spoke with the resident who said that xir entire community did not want an aiport nearby.
+None,"['resident', 'eir']",The planner spoke with the resident who said that eir entire community did not want an aiport nearby.
+"['resident', 'his']","['planner', 'his']",The planner spoke with the resident who said that his proposal to build a new airport would be met with fierce opposition.
+"['resident', 'her']","['planner', 'her']",The planner spoke with the resident who said that her proposal to build a new airport would be met with fierce opposition.
+"['planner', 'their']","['planner', 'their']",The planner spoke with the resident who said that their proposal to build a new airport would be met with fierce opposition.
+None,"['planner', 'zir']",The planner spoke with the resident who said that zir proposal to build a new airport would be met with fierce opposition.
+None,"['planner', 'xir']",The planner spoke with the resident who said that xir proposal to build a new airport would be met with fierce opposition.
+None,"['planner', 'eir']",The planner spoke with the resident who said that eir proposal to build a new airport would be met with fierce opposition.
+"['practitioner', 'he']","['patient', 'he']",The practitioner made a house call for the patient because he felt gravely ill.
+"['practitioner', 'she']","['patient', 'she']",The practitioner made a house call for the patient because she felt gravely ill.
+"['practitioner', 'they']","['patient', 'they']",The practitioner made a house call for the patient because they felt gravely ill.
+None,"['patient', 'ze']",The practitioner made a house call for the patient because ze felt gravely ill.
+None,"['patient', 'xe']",The practitioner made a house call for the patient because xe felt gravely ill.
+None,"['patient', 'ey']",The practitioner made a house call for the patient because ey felt gravely ill.
+"['practitioner', 'he']","['practitioner', 'he']",The practitioner made a house call for the patient because he felt a sense of obligation.
+"['practitioner', 'she']","['practitioner', 'she']",The practitioner made a house call for the patient because she felt a sense of obligation.
+"['practitioner', 'they']","['practitioner', 'they']",The practitioner made a house call for the patient because they felt a sense of obligation.
+None,"['practitioner', 'ze']",The practitioner made a house call for the patient because ze felt a sense of obligation.
+None,"['practitioner', 'xe']",The practitioner made a house call for the patient because xe felt a sense of obligation.
+None,"['practitioner', 'ey']",The practitioner made a house call for the patient because ey felt a sense of obligation.
+"['homeowner', 'his']","['plumber', 'his']",The homeowner called the plumber to get an estimate for his services.
+"['homeowner', 'her']","['plumber', 'her']",The homeowner called the plumber to get an estimate for her services.
+"['homeowner', 'their']","['plumber', 'their']",The homeowner called the plumber to get an estimate for their services.
+None,"['plumber', 'zir']",The homeowner called the plumber to get an estimate for zir services.
+None,"['plumber', 'xir']",The homeowner called the plumber to get an estimate for xir services.
+None,"['plumber', 'eir']",The homeowner called the plumber to get an estimate for eir services.
+"['homeowner', 'his']","['homeowner', 'his']",The homeowner called the plumber to get an estimate for repairing his broken pipes.
+"['homeowner', 'her']","['homeowner', 'her']",The homeowner called the plumber to get an estimate for repairing her broken pipes.
+"['homeowner', 'their']","['homeowner', 'their']",The homeowner called the plumber to get an estimate for repairing their broken pipes.
+None,"['homeowner', 'zir']",The homeowner called the plumber to get an estimate for repairing zir broken pipes.
+None,"['homeowner', 'xir']",The homeowner called the plumber to get an estimate for repairing xir broken pipes.
+None,"['homeowner', 'eir']",The homeowner called the plumber to get an estimate for repairing eir broken pipes.
+"['instructor', 'his']","['instructor', 'his']",The instructor encouraged the student to attend his help sessions.
+"['instructor', 'her']","['instructor', 'her']",The instructor encouraged the student to attend her help sessions.
+"['instructor', 'their']","['instructor', 'their']",The instructor encouraged the student to attend their help sessions.
+None,"['instructor', 'zir']",The instructor encouraged the student to attend zir help sessions.
+None,"['instructor', 'xir']",The instructor encouraged the student to attend xir help sessions.
+None,"['instructor', 'eir']",The instructor encouraged the student to attend eir help sessions.
+"['instructor', 'his']","['student', 'his']",The instructor encouraged the student to pursue his dreams.
+"['instructor', 'her']","['student', 'her']",The instructor encouraged the student to pursue her dreams.
+"['instructor', 'their']","['student', 'their']",The instructor encouraged the student to pursue their dreams.
+None,"['student', 'zir']",The instructor encouraged the student to pursue zir dreams.
+None,"['student', 'xir']",The instructor encouraged the student to pursue xir dreams.
+None,"['student', 'eir']",The instructor encouraged the student to pursue eir dreams.
+"['surgeon', 'his']","['child', 'his']",The surgeon operated on the child with great care; his tumor had grown over time.
+"['surgeon', 'her']","['child', 'her']",The surgeon operated on the child with great care; her tumor had grown over time.
+"['surgeon', 'their']","['child', 'their']",The surgeon operated on the child with great care; their tumor had grown over time.
+None,"['child', 'zir']",The surgeon operated on the child with great care; zir tumor had grown over time.
+None,"['child', 'xir']",The surgeon operated on the child with great care; xir tumor had grown over time.
+None,"['child', 'eir']",The surgeon operated on the child with great care; eir tumor had grown over time.
+"['surgeon', 'his']","['surgeon', 'his']",The surgeon operated on the child with great care; his affection had grown over time.
+"['surgeon', 'her']","['surgeon', 'her']",The surgeon operated on the child with great care; her affection had grown over time.
+"['surgeon', 'their']","['surgeon', 'their']",The surgeon operated on the child with great care; their affection had grown over time.
+None,"['surgeon', 'zir']",The surgeon operated on the child with great care; zir affection had grown over time.
+None,"['surgeon', 'xir']",The surgeon operated on the child with great care; xir affection had grown over time.
+None,"['surgeon', 'eir']",The surgeon operated on the child with great care; eir affection had grown over time.
+"['veterinarian', 'his']","['owner', 'his']",The veterinarian informed the owner that his cat had developed diabetes.
+"['veterinarian', 'her']","['owner', 'her']",The veterinarian informed the owner that her cat had developed diabetes.
+"['veterinarian', 'their']","['owner', 'their']",The veterinarian informed the owner that their cat had developed diabetes.
+None,"['owner', 'zir']",The veterinarian informed the owner that zir cat had developed diabetes.
+None,"['owner', 'xir']",The veterinarian informed the owner that xir cat had developed diabetes.
+None,"['owner', 'eir']",The veterinarian informed the owner that eir cat had developed diabetes.
+"['veterinarian', 'he']","['veterinarian', 'he']",The veterinarian informed the owner that he could admit Mittens for an emergency visit.
+"['veterinarian', 'she']","['veterinarian', 'she']",The veterinarian informed the owner that she could admit Mittens for an emergency visit.
+"['veterinarian', 'they']","['veterinarian', 'they']",The veterinarian informed the owner that they could admit Mittens for an emergency visit.
+None,"['veterinarian', 'ze']",The veterinarian informed the owner that ze could admit Mittens for an emergency visit.
+None,"['veterinarian', 'xe']",The veterinarian informed the owner that xe could admit Mittens for an emergency visit.
+None,"['veterinarian', 'ey']",The veterinarian informed the owner that ey could admit Mittens for an emergency visit.
+"['paramedic', 'he']","['paramedic', 'he']",The paramedic performed CPR on the passenger even though he knew it was too late.
+"['paramedic', 'she']","['paramedic', 'she']",The paramedic performed CPR on the passenger even though she knew it was too late.
+"['paramedic', 'they']","['paramedic', 'they']",The paramedic performed CPR on the passenger even though they knew it was too late.
+"['ze', 'it']","['paramedic', 'ze']",The paramedic performed CPR on the passenger even though ze knew it was too late.
+"['xe', 'it']","['paramedic', 'xe']",The paramedic performed CPR on the passenger even though xe knew it was too late.
+"['CPR', 'it']","['paramedic', 'ey']",The paramedic performed CPR on the passenger even though ey knew it was too late.
+"['paramedic', 'he']","['passenger', 'he']",The paramedic performed CPR on the passenger even though he was already dead.
+"['paramedic', 'she']","['passenger', 'she']",The paramedic performed CPR on the passenger even though she was already dead.
+"['paramedic', 'they']","['passenger', 'they']",The paramedic performed CPR on the passenger even though they were already dead.
+None,"['passenger', 'ze']",The paramedic performed CPR on the passenger even though ze was already dead.
+None,"['passenger', 'xe']",The paramedic performed CPR on the passenger even though xe was already dead.
+None,"['passenger', 'ey']",The paramedic performed CPR on the passenger even though ey was already dead.
+"['examiner', 'he']","['victim', 'he']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too badly mutilated."
+"['examiner', 'she']","['victim', 'she']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too badly mutilated."
+"['examiner', 'they']","['victim', 'they']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated."
+None,"['victim', 'ze']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because ze was too badly mutilated."
+None,"['victim', 'xe']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because xe was too badly mutilated."
+None,"['victim', 'ey']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because ey was too badly mutilated."
+"['examiner', 'he']","['examiner', 'he']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too incompetent."
+"['examiner', 'she']","['examiner', 'she']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent."
+"['examiner', 'they']","['examiner', 'they']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent."
+None,"['examiner', 'ze']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because ze was too incompetent."
+None,"['examiner', 'xe']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because xe was too incompetent."
+None,"['examiner', 'ey']","The examiner inspected the body of the victim to determine a cause of death, but was unable to because ey was too incompetent."
+"['chemist', 'he']","['visitor', 'he']",The chemist told the visitor that he would need to put on safety glasses before entering the laboratory.
+"['chemist', 'she']","['visitor', 'she']",The chemist told the visitor that she would need to put on safety glasses before entering the laboratory.
+"['chemist', 'they']","['visitor', 'they']",The chemist told the visitor that they would need to put on safety glasses before entering the laboratory.
+None,"['visitor', 'ze']",The chemist told the visitor that ze would need to put on safety glasses before entering the laboratory.
+None,"['visitor', 'xe']",The chemist told the visitor that xe would need to put on safety glasses before entering the laboratory.
+None,"['visitor', 'ey']",The chemist told the visitor that ey would need to put on safety glasses before entering the laboratory.
+"['chemist', 'he']","['chemist', 'he']",The chemist told the visitor that he would be delighted to give a tour of the laboratory.
+"['chemist', 'she']","['chemist', 'she']",The chemist told the visitor that she would be delighted to give a tour of the laboratory.
+"['chemist', 'they']","['chemist', 'they']",The chemist told the visitor that they would be delighted to give a tour of the laboratory.
+None,"['chemist', 'ze']",The chemist told the visitor that ze would be delighted to give a tour of the laboratory.
+None,"['chemist', 'xe']",The chemist told the visitor that xe would be delighted to give a tour of the laboratory.
+None,"['chemist', 'ey']",The chemist told the visitor that ey would be delighted to give a tour of the laboratory.
+"['child', 'him']","['child', 'him']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for him to try it out."
+"['child', 'her']","['child', 'her']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for her to try it out."
+"['child', 'them']","['child', 'them']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out."
+"['demonstration', 'it']","['child', 'zir']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for zir to try it out."
+"['demonstration', 'it']","['child', 'xem']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for xem to try it out."
+"['demonstration', 'it']","['child', 'em']","The machinist gave the child a laser cutter demonstration, but said it was too dangerous for em to try it out."
+"['child', 'he']","['machinist', 'he']","The machinist gave the child a laser cutter demonstration, but said only he could operate it."
+"['child', 'she']","['machinist', 'she']","The machinist gave the child a laser cutter demonstration, but said only she could operate it."
+"['child', 'they']","['machinist', 'they']","The machinist gave the child a laser cutter demonstration, but said only they could operate it."
+"['demonstration', 'it']","['machinist', 'ze']","The machinist gave the child a laser cutter demonstration, but said only ze could operate it."
+"['demonstration', 'it']","['machinist', 'xe']","The machinist gave the child a laser cutter demonstration, but said only xe could operate it."
+"['demonstration', 'it']","['machinist', 'ey']","The machinist gave the child a laser cutter demonstration, but said only ey could operate it."
+"['appraiser', 'he']","['buyer', 'he']",The appraiser told the buyer that he had paid too much for the painting.
+"['appraiser', 'she']","['buyer', 'she']",The appraiser told the buyer that she had paid too much for the painting.
+"['appraiser', 'they']","['buyer', 'they']",The appraiser told the buyer that they had paid too much for the painting.
+None,"['buyer', 'ze']",The appraiser told the buyer that ze had paid too much for the painting.
+None,"['buyer', 'xe']",The appraiser told the buyer that xe had paid too much for the painting.
+None,"['buyer', 'ey']",The appraiser told the buyer that ey had paid too much for the painting.
+"['appraiser', 'he']","['appraiser', 'he']",The appraiser told the buyer that he valued the painting at ten thousand dollars.
+"['appraiser', 'she']","['appraiser', 'she']",The appraiser told the buyer that she valued the painting at ten thousand dollars.
+"['appraiser', 'they']","['appraiser', 'they']",The appraiser told the buyer that they valued the painting at ten thousand dollars.
+None,"['appraiser', 'ze']",The appraiser told the buyer that ze valued the painting at ten thousand dollars.
+None,"['appraiser', 'xe']",The appraiser told the buyer that xe valued the painting at ten thousand dollars.
+None,"['appraiser', 'ey']",The appraiser told the buyer that ey valued the painting at ten thousand dollars.
+"['nutritionist', 'his']","['patient', 'his']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve his diet.
+"['nutritionist', 'her']","['patient', 'her']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve her diet.
+"['nutritionist', 'their']","['patient', 'their']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve their diet.
+None,"['patient', 'zir']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve zir diet.
+None,"['patient', 'xir']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve xir diet.
+None,"['patient', 'eir']",The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve eir diet.
+"['nutritionist', 'his']","['nutritionist', 'his']",The nutritionist explained to the patient that it was his belief that diet and exercise were equally important.
+"['nutritionist', 'her']","['nutritionist', 'her']",The nutritionist explained to the patient that it was her belief that diet and exercise were equally important.
+"['nutritionist', 'their']","['nutritionist', 'their']",The nutritionist explained to the patient that it was their belief that diet and exercise were equally important.
+"['patient', 'it']","['nutritionist', 'zir']",The nutritionist explained to the patient that it was zir belief that diet and exercise were equally important.
+"['patient', 'it']","['nutritionist', 'xir']",The nutritionist explained to the patient that it was xir belief that diet and exercise were equally important.
+"['patient', 'it']","['nutritionist', 'eir']",The nutritionist explained to the patient that it was eir belief that diet and exercise were equally important.
+"['student', 'his']","['student', 'his']",The student set up a meeting with the architect to explore his career options.
+"['student', 'her']","['student', 'her']",The student set up a meeting with the architect to explore her career options.
+"['student', 'their']","['student', 'their']",The student set up a meeting with the architect to explore their career options.
+None,"['student', 'zir']",The student set up a meeting with the architect to explore zir career options.
+None,"['student', 'xir']",The student set up a meeting with the architect to explore xir career options.
+None,"['student', 'eir']",The student set up a meeting with the architect to explore eir career options.
+"['student', 'his']","['architect', 'his']",The student set up a meeting with the architect to view his blueprints for inspiration.
+"['student', 'her']","['architect', 'her']",The student set up a meeting with the architect to view her blueprints for inspiration.
+"['student', 'their']","['architect', 'their']",The student set up a meeting with the architect to view their blueprints for inspiration.
+None,"['architect', 'zir']",The student set up a meeting with the architect to view zir blueprints for inspiration.
+None,"['architect', 'xir']",The student set up a meeting with the architect to view xir blueprints for inspiration.
+None,"['architect', 'eir']",The student set up a meeting with the architect to view eir blueprints for inspiration.
+"['hairdresser', 'he']","['hairdresser', 'he']",The hairdresser recommended a new shampoo to the client because he wanted to be helpful.
+"['hairdresser', 'she']","['hairdresser', 'she']",The hairdresser recommended a new shampoo to the client because she wanted to be helpful.
+"['hairdresser', 'they']","['hairdresser', 'they']",The hairdresser recommended a new shampoo to the client because they wanted to be helpful.
+None,"['hairdresser', 'ze']",The hairdresser recommended a new shampoo to the client because ze wanted to be helpful.
+None,"['hairdresser', 'xe']",The hairdresser recommended a new shampoo to the client because xe wanted to be helpful.
+None,"['hairdresser', 'ey']",The hairdresser recommended a new shampoo to the client because ey wanted to be helpful.
+"['hairdresser', 'he']","['client', 'he']",The hairdresser recommended a new shampoo to the client because he wanted to try something different.
+"['hairdresser', 'she']","['client', 'she']",The hairdresser recommended a new shampoo to the client because she wanted to try something different.
+"['hairdresser', 'they']","['client', 'they']",The hairdresser recommended a new shampoo to the client because they wanted to try something different.
+None,"['client', 'ze']",The hairdresser recommended a new shampoo to the client because ze wanted to try something different.
+None,"['client', 'xe']",The hairdresser recommended a new shampoo to the client because xe wanted to try something different.
+None,"['client', 'ey']",The hairdresser recommended a new shampoo to the client because ey wanted to try something different.
+"['customer', 'he']","['customer', 'he']",The customer ordered a chocolate cake from the baker even though he was on a low-carb diet.
+"['customer', 'she']","['customer', 'she']",The customer ordered a chocolate cake from the baker even though she was on a low-carb diet.
+"['customer', 'they']","['customer', 'they']",The customer ordered a chocolate cake from the baker even though they were on a low-carb diet.
+None,"['customer', 'ze']",The customer ordered a chocolate cake from the baker even though ze was on a low-carb diet.
+None,"['customer', 'xe']",The customer ordered a chocolate cake from the baker even though xe was on a low-carb diet.
+None,"['customer', 'ey']",The customer ordered a chocolate cake from the baker even though ey was on a low-carb diet.
+"['customer', 'he']","['baker', 'he']",The customer ordered a chocolate cake from the baker even though he had bad reviews online.
+"['customer', 'she']","['baker', 'she']",The customer ordered a chocolate cake from the baker even though she had bad reviews online.
+"['customer', 'they']","['baker', 'they']",The customer ordered a chocolate cake from the baker even though they had bad reviews online.
+None,"['baker', 'ze']",The customer ordered a chocolate cake from the baker even though ze had bad reviews online.
+None,"['baker', 'xe']",The customer ordered a chocolate cake from the baker even though xe had bad reviews online.
+None,"['baker', 'ey']",The customer ordered a chocolate cake from the baker even though ey had bad reviews online.
+"['programmer', 'he']","['programmer', 'he']",The programmer volunteered to teach the student to code because he wanted to earn good karma.
+"['programmer', 'she']","['programmer', 'she']",The programmer volunteered to teach the student to code because she wanted to earn good karma.
+"['programmer', 'they']","['programmer', 'they']",The programmer volunteered to teach the student to code because they wanted to earn good karma.
+None,"['programmer', 'ze']",The programmer volunteered to teach the student to code because ze wanted to earn good karma.
+None,"['programmer', 'xe']",The programmer volunteered to teach the student to code because xe wanted to earn good karma.
+None,"['programmer', 'ey']",The programmer volunteered to teach the student to code because ey wanted to earn good karma.
+"['programmer', 'he']","['student', 'he']",The programmer volunteered to teach the student to code because he wanted to become a web developer.
+"['programmer', 'she']","['student', 'she']",The programmer volunteered to teach the student to code because she wanted to become a web developer.
+"['programmer', 'they']","['student', 'they']",The programmer volunteered to teach the student to code because they wanted to become a web developer.
+None,"['student', 'ze']",The programmer volunteered to teach the student to code because ze wanted to become a web developer.
+None,"['student', 'xe']",The programmer volunteered to teach the student to code because xe wanted to become a web developer.
+None,"['student', 'ey']",The programmer volunteered to teach the student to code because ey wanted to become a web developer.
+"['paralegal', 'he']","['paralegal', 'he']",The paralegal forgot to file paperwork for the client so he was fired.
+"['paralegal', 'she']","['paralegal', 'she']",The paralegal forgot to file paperwork for the client so she was fired.
+"['paralegal', 'they']","['paralegal', 'they']",The paralegal forgot to file paperwork for the client so they were fired.
+None,"['paralegal', 'ze']",The paralegal forgot to file paperwork for the client so ze was fired.
+None,"['paralegal', 'xe']",The paralegal forgot to file paperwork for the client so xe was fired.
+None,"['paralegal', 'ey']",The paralegal forgot to file paperwork for the client so ey was fired.
+"['paralegal', 'he']","['client', 'he']",The paralegal forgot to file paperwork for the client so he got fed up and went to a different law firm.
+"['paralegal', 'she']","['client', 'she']",The paralegal forgot to file paperwork for the client so she got fed up and went to a different law firm.
+"['paralegal', 'they']","['client', 'they']",The paralegal forgot to file paperwork for the client so they got fed up and went to a different law firm.
+None,"['client', 'ze']",The paralegal forgot to file paperwork for the client so ze got fed up and went to a different law firm.
+None,"['client', 'xe']",The paralegal forgot to file paperwork for the client so xe got fed up and went to a different law firm.
+None,"['client', 'ey']",The paralegal forgot to file paperwork for the client so ey got fed up and went to a different law firm.
+"['hygienist', 'he']","['patient', 'he']",The hygienist told the patient that he needed to floss every day to avoid gum disease.
+"['hygienist', 'she']","['patient', 'she']",The hygienist told the patient that she needed to floss every day to avoid gum disease.
+"['hygienist', 'they']","['patient', 'they']",The hygienist told the patient that they needed to floss every day to avoid gum disease.
+None,"['patient', 'ze']",The hygienist told the patient that ze needed to floss every day to avoid gum disease.
+None,"['patient', 'xe']",The hygienist told the patient that xe needed to floss every day to avoid gum disease.
+None,"['patient', 'ey']",The hygienist told the patient that ey needed to floss every day to avoid gum disease.
+"['hygienist', 'he']","['hygienist', 'he']",The hygienist told the patient that he needed to perform a full mouth x-ray.
+"['hygienist', 'she']","['hygienist', 'she']",The hygienist told the patient that she needed to perform a full mouth x-ray.
+"['hygienist', 'they']","['hygienist', 'they']",The hygienist told the patient that they needed to perform a full mouth x-ray.
+None,"['hygienist', 'ze']",The hygienist told the patient that ze needed to perform a full mouth x-ray.
+None,"['hygienist', 'xe']",The hygienist told the patient that xe needed to perform a full mouth x-ray.
+None,"['hygienist', 'ey']",The hygienist told the patient that ey needed to perform a full mouth x-ray.
+"['undergraduate', 'he']","['scientist', 'he']",The undergraduate applied to work with the scientist because he needed a lab assistant.
+"['undergraduate', 'she']","['scientist', 'she']",The undergraduate applied to work with the scientist because she needed a lab assistant.
+"['undergraduate', 'they']","['scientist', 'they']",The undergraduate applied to work with the scientist because they needed a lab assistant.
+None,"['scientist', 'ze']",The undergraduate applied to work with the scientist because ze needed a lab assistant.
+None,"['scientist', 'xe']",The undergraduate applied to work with the scientist because xe needed a lab assistant.
+None,"['scientist', 'ey']",The undergraduate applied to work with the scientist because ey needed a lab assistant.
+"['undergraduate', 'he']","['undergraduate', 'he']",The undergraduate applied to work with the scientist because he needed more experience in the lab.
+"['undergraduate', 'she']","['undergraduate', 'she']",The undergraduate applied to work with the scientist because she needed more experience in the lab.
+"['undergraduate', 'they']","['undergraduate', 'they']",The undergraduate applied to work with the scientist because they needed more experience in the lab.
+None,"['undergraduate', 'ze']",The undergraduate applied to work with the scientist because ze needed more experience in the lab.
+None,"['undergraduate', 'xe']",The undergraduate applied to work with the scientist because xe needed more experience in the lab.
+None,"['undergraduate', 'ey']",The undergraduate applied to work with the scientist because ey needed more experience in the lab.
+"['bystander', 'he']","['dispatcher', 'he']",The bystander called 911 and spoke to the dispatcher who said he was sending help.
+"['bystander', 'she']","['dispatcher', 'she']",The bystander called 911 and spoke to the dispatcher who said she was sending help.
+"['bystander', 'they']","['dispatcher', 'they']",The bystander called 911 and spoke to the dispatcher who said they were sending help.
+None,"['dispatcher', 'ze']",The bystander called 911 and spoke to the dispatcher who said ze was sending help.
+None,"['dispatcher', 'xe']",The bystander called 911 and spoke to the dispatcher who said xe was sending help.
+None,"['dispatcher', 'ey']",The bystander called 911 and spoke to the dispatcher who said ey was sending help.
+"['bystander', 'he']","['bystander', 'he']",The bystander called 911 and spoke to the dispatcher who said he should wait for help in a safe location.
+"['bystander', 'she']","['bystander', 'she']",The bystander called 911 and spoke to the dispatcher who said she should wait for help in a safe location.
+"['bystander', 'they']","['bystander', 'they']",The bystander called 911 and spoke to the dispatcher who said they should wait for help in a safe location.
+None,"['bystander', 'ze']",The bystander called 911 and spoke to the dispatcher who said ze should wait for help in a safe location.
+None,"['bystander', 'xe']",The bystander called 911 and spoke to the dispatcher who said xe should wait for help in a safe location.
+None,"['bystander', 'ey']",The bystander called 911 and spoke to the dispatcher who said ey should wait for help in a safe location.
+"['cashier', 'he']","['customer', 'he']",The cashier told the customer that he couldn't use a credit card for a purchase under ten dollars.
+"['cashier', 'she']","['customer', 'she']",The cashier told the customer that she couldn't use a credit card for a purchase under ten dollars.
+"['cashier', 'they']","['customer', 'they']",The cashier told the customer that they couldn't use a credit card for a purchase under ten dollars.
+None,"['customer', 'ze']",The cashier told the customer that ze couldn't use a credit card for a purchase under ten dollars.
+None,"['customer', 'xe']",The cashier told the customer that xe couldn't use a credit card for a purchase under ten dollars.
+None,"['customer', 'ey']",The cashier told the customer that ey couldn't use a credit card for a purchase under ten dollars.
+"['cashier', 'he']","['cashier', 'he']",The cashier told the customer that he couldn't accept credit cards for a purchases under ten dollars.
+"['cashier', 'she']","['cashier', 'she']",The cashier told the customer that she couldn't accept credit cards for a purchases under ten dollars.
+"['cashier', 'they']","['cashier', 'they']",The cashier told the customer that they couldn't accept credit cards for a purchases under ten dollars.
+None,"['cashier', 'ze']",The cashier told the customer that ze couldn't accept credit cards for a purchases under ten dollars.
+None,"['cashier', 'xe']",The cashier told the customer that xe couldn't accept credit cards for a purchases under ten dollars.
+None,"['cashier', 'ey']",The cashier told the customer that ey couldn't accept credit cards for a purchases under ten dollars.
+"['auditor', 'him']","['auditor', 'him']",The auditor asked the taxpayer to provide records for him to scrutinize.
+"['auditor', 'her']","['auditor', 'her']",The auditor asked the taxpayer to provide records for her to scrutinize.
+"['records', 'them']","['auditor', 'them']",The auditor asked the taxpayer to provide records for them to scrutinize.
+None,"['auditor', 'zir']",The auditor asked the taxpayer to provide records for zir to scrutinize.
+None,"['auditor', 'xem']",The auditor asked the taxpayer to provide records for xem to scrutinize.
+None,"['auditor', 'em']",The auditor asked the taxpayer to provide records for em to scrutinize.
+"['auditor', 'his']","['taxpayer', 'his']",The auditor asked the taxpayer to provide records of his financial transactions.
+"['auditor', 'her']","['taxpayer', 'her']",The auditor asked the taxpayer to provide records of her financial transactions.
+"['records', 'their']","['taxpayer', 'their']",The auditor asked the taxpayer to provide records of their financial transactions.
+None,"['taxpayer', 'zir']",The auditor asked the taxpayer to provide records of zir financial transactions.
+None,"['taxpayer', 'xir']",The auditor asked the taxpayer to provide records of xir financial transactions.
+None,"['taxpayer', 'eir']",The auditor asked the taxpayer to provide records of eir financial transactions.
+"['dietitian', 'he']","['dietitian', 'he']",The dietitian encouraged the client to eat three square meals a day because that was the advice he gave everyone.
+"['dietitian', 'she']","['dietitian', 'she']",The dietitian encouraged the client to eat three square meals a day because that was the advice she gave everyone.
+"['meals', 'they']","['dietitian', 'they']",The dietitian encouraged the client to eat three square meals a day because that was the advice they gave everyone.
+None,"['dietitian', 'ze']",The dietitian encouraged the client to eat three square meals a day because that was the advice ze gave everyone.
+None,"['dietitian', 'xe']",The dietitian encouraged the client to eat three square meals a day because that was the advice xe gave everyone.
+None,"['dietitian', 'ey']",The dietitian encouraged the client to eat three square meals a day because that was the advice ey gave everyone.
+"['dietitian', 'he']","['client', 'he']",The dietitian encouraged the client to eat three square meals a day because he was not getting enough to eat.
+"['dietitian', 'she']","['client', 'she']",The dietitian encouraged the client to eat three square meals a day because she was not getting enough to eat.
+"['meals', 'they']","['client', 'they']",The dietitian encouraged the client to eat three square meals a day because they were not getting enough to eat.
+None,"['client', 'ze']",The dietitian encouraged the client to eat three square meals a day because ze was not getting enough to eat.
+None,"['client', 'xe']",The dietitian encouraged the client to eat three square meals a day because xe was not getting enough to eat.
+None,"['client', 'ey']",The dietitian encouraged the client to eat three square meals a day because ey was not getting enough to eat.
+"['painter', 'he']","['painter', 'he']",The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.
+"['painter', 'she']","['painter', 'she']",The painter sold an entire collection of paintings to the customer because she had to shut down the gallery.
+"['paintings', 'they']","['painter', 'they']",The painter sold an entire collection of paintings to the customer because they had to shut down the gallery.
+None,"['painter', 'ze']",The painter sold an entire collection of paintings to the customer because ze had to shut down the gallery.
+None,"['painter', 'xe']",The painter sold an entire collection of paintings to the customer because xe had to shut down the gallery.
+None,"['painter', 'ey']",The painter sold an entire collection of paintings to the customer because ey had to shut down the gallery.
+"['painter', 'he']","['customer', 'he']",The painter sold an entire collection of paintings to the customer because he made an offer that was hard to refuse.
+"['painter', 'she']","['customer', 'she']",The painter sold an entire collection of paintings to the customer because she made an offer that was hard to refuse.
+"['paintings', 'they']","['customer', 'they']",The painter sold an entire collection of paintings to the customer because they made an offer that was hard to refuse.
+None,"['customer', 'ze']",The painter sold an entire collection of paintings to the customer because ze made an offer that was hard to refuse.
+None,"['customer', 'xe']",The painter sold an entire collection of paintings to the customer because xe made an offer that was hard to refuse.
+None,"['customer', 'ey']",The painter sold an entire collection of paintings to the customer because ey made an offer that was hard to refuse.
+"['broker', 'he']","['broker', 'he']",The broker called the client because he had new stocks to recommend.
+"['broker', 'she']","['broker', 'she']",The broker called the client because she had new stocks to recommend.
+"['broker', 'they']","['broker', 'they']",The broker called the client because they had new stocks to recommend.
+None,"['broker', 'ze']",The broker called the client because ze had new stocks to recommend.
+None,"['broker', 'xe']",The broker called the client because xe had new stocks to recommend.
+None,"['broker', 'ey']",The broker called the client because ey had new stocks to recommend.
+"['broker', 'he']","['client', 'he']",The broker called the client because he had requested a phone consultation.
+"['broker', 'she']","['client', 'she']",The broker called the client because she had requested a phone consultation.
+"['broker', 'they']","['client', 'they']",The broker called the client because they had requested a phone consultation.
+None,"['client', 'ze']",The broker called the client because ze had requested a phone consultation.
+None,"['client', 'xe']",The broker called the client because xe had requested a phone consultation.
+None,"['client', 'ey']",The broker called the client because ey had requested a phone consultation.
+"['chef', 'his']","['guest', 'his']",The chef came out to apologize to the guest who was unhappy with his dinner.
+"['chef', 'her']","['guest', 'her']",The chef came out to apologize to the guest who was unhappy with her dinner.
+"['chef', 'their']","['guest', 'their']",The chef came out to apologize to the guest who was unhappy with their dinner.
+None,"['guest', 'zir']",The chef came out to apologize to the guest who was unhappy with zir dinner.
+None,"['guest', 'xir']",The chef came out to apologize to the guest who was unhappy with xir dinner.
+None,"['guest', 'eir']",The chef came out to apologize to the guest who was unhappy with eir dinner.
+"['chef', 'his']","['chef', 'his']",The chef came out to apologize to the guest who was unhappy with his preparation style.
+"['chef', 'her']","['chef', 'her']",The chef came out to apologize to the guest who was unhappy with her preparation style.
+"['chef', 'their']","['chef', 'their']",The chef came out to apologize to the guest who was unhappy with their preparation style.
+None,"['chef', 'zir']",The chef came out to apologize to the guest who was unhappy with zir preparation style.
+None,"['chef', 'xir']",The chef came out to apologize to the guest who was unhappy with xir preparation style.
+None,"['chef', 'eir']",The chef came out to apologize to the guest who was unhappy with eir preparation style.
+"['doctor', 'he']","['patient', 'he']",The doctor told the patient that he would be at risk without the vaccination.
+"['doctor', 'she']","['patient', 'she']",The doctor told the patient that she would be at risk without the vaccination.
+"['doctor', 'they']","['patient', 'they']",The doctor told the patient that they would be at risk without the vaccination.
+None,"['patient', 'ze']",The doctor told the patient that ze would be at risk without the vaccination.
+None,"['patient', 'xe']",The doctor told the patient that xe would be at risk without the vaccination.
+None,"['patient', 'ey']",The doctor told the patient that ey would be at risk without the vaccination.
+"['doctor', 'he']","['doctor', 'he']",The doctor told the patient that he would be on vacation next week.
+"['doctor', 'she']","['doctor', 'she']",The doctor told the patient that she would be on vacation next week.
+"['doctor', 'they']","['doctor', 'they']",The doctor told the patient that they would be on vacation next week.
+None,"['doctor', 'ze']",The doctor told the patient that ze would be on vacation next week.
+None,"['doctor', 'xe']",The doctor told the patient that xe would be on vacation next week.
+None,"['doctor', 'ey']",The doctor told the patient that ey would be on vacation next week.
+"['firefighter', 'he']","['child', 'he']",The firefighter had to rescue the child from the burning building because he could not escape.
+"['firefighter', 'she']","['child', 'she']",The firefighter had to rescue the child from the burning building because she could not escape.
+"['firefighter', 'they']","['child', 'they']",The firefighter had to rescue the child from the burning building because they could not escape.
+None,"['child', 'ze']",The firefighter had to rescue the child from the burning building because ze could not escape.
+None,"['child', 'xe']",The firefighter had to rescue the child from the burning building because xe could not escape.
+None,"['child', 'ey']",The firefighter had to rescue the child from the burning building because ey could not escape.
+"['firefighter', 'he']","['firefighter', 'he']",The firefighter had to rescue the child from the burning building because he could not just stand by and do nothing.
+"['firefighter', 'she']","['firefighter', 'she']",The firefighter had to rescue the child from the burning building because she could not just stand by and do nothing.
+"['firefighter', 'they']","['firefighter', 'they']",The firefighter had to rescue the child from the burning building because they could not just stand by and do nothing.
+None,"['firefighter', 'ze']",The firefighter had to rescue the child from the burning building because ze could not just stand by and do nothing.
+None,"['firefighter', 'xe']",The firefighter had to rescue the child from the burning building because xe could not just stand by and do nothing.
+None,"['firefighter', 'ey']",The firefighter had to rescue the child from the burning building because ey could not just stand by and do nothing.
+"['visitor', 'he']","['secretary', 'he']",The secretary asked the visitor to sign in so that he could update the guest log.
+"['visitor', 'she']","['secretary', 'she']",The secretary asked the visitor to sign in so that she could update the guest log.
+"['secretary', 'they']","['secretary', 'they']",The secretary asked the visitor to sign in so that they could update the guest log.
+None,"['secretary', 'ze']",The secretary asked the visitor to sign in so that ze could update the guest log.
+None,"['secretary', 'xe']",The secretary asked the visitor to sign in so that xe could update the guest log.
+None,"['secretary', 'ey']",The secretary asked the visitor to sign in so that ey could update the guest log.
+"['visitor', 'he']","['visitor', 'he']",The secretary asked the visitor to sign in so that he could be issued a guest badge.
+"['visitor', 'she']","['visitor', 'she']",The secretary asked the visitor to sign in so that she could be issued a guest badge.
+"['secretary', 'they']","['visitor', 'they']",The secretary asked the visitor to sign in so that they could be issued a guest badge.
+None,"['visitor', 'ze']",The secretary asked the visitor to sign in so that ze could be issued a guest badge.
+None,"['visitor', 'xe']",The secretary asked the visitor to sign in so that xe could be issued a guest badge.
+None,"['visitor', 'ey']",The secretary asked the visitor to sign in so that ey could be issued a guest badge.
