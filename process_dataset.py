@@ -19,24 +19,24 @@ TAB = "\t"
 class CorefRelationExtractionDataset(Dataset):
     TSV_COLUMNS = ["sentence", "answer", "occupation(0)",
                    "other-participant(1)", "gender", "answer_person",
-                   "pronoun"]
+                   "pronoun", "e1_idx", "e2_idx", "e3_idx"]
 
     def __init__(
         self,
         file_path,
-        column_names: Optional[list[str]] = None,
+        # column_names: Optional[list[str]] = None,
         sentence_column: str = "sentence",
         relation_column: str = "relation",
-        e1_idx_column: str = "e1_idx",
-        e2_idx_column: str = "e2_idx",
-        e3_idx_column: str = "e3_idx",
+        # e1_idx_column: str = "e1_idx",
+        # e2_idx_column: str = "e2_idx",
+        # e3_idx_column: str = "e3_idx",
         tokenize_fn: Optional[Callable] = None,
         add_entity_tags: bool = False,
         truncate: bool = False,
         add_positional_encoding: bool = False,
         add_pos_tags: bool = False,
         pad_token: str = "<pad>",
-        train_dataset: Optional["TSVRelationExtractionDataset"] = None,
+        train_dataset: Optional["CorefRelationExtractionDataset"] = None,
     ):
         if not tokenize_fn:
             def tokenize(sentence: str) -> list[str]:
@@ -44,19 +44,19 @@ class CorefRelationExtractionDataset(Dataset):
 
         # Make the input arguments instance variables
         self.file_path = file_path
-        self.column_names = column_names or self.PA3_TSV_COLUMNS
+        self.column_names = self.TSV_COLUMNS
         self.tokenize = tokenize_fn or tokenize
-        self.sentence_column = sentence_column
-        self.relation_column = relation_column
+        self.sentence_column = self.TSV_COLUMNS[3]
+        self.relation_column = self.TSV_COLUMNS[5]
 
         self.add_entity_tags = add_entity_tags
         self.truncate = truncate
         self.add_positional_encoding = add_positional_encoding
         self.add_pos_tags = add_pos_tags
 
-        self.e1_idx_column = e1_idx_column
-        self.e2_idx_column = e2_idx_column
-        self.e3_idx_column = e3_idx_column
+        self.e1_idx_column = self.TSV_COLUMNS[7]
+        self.e2_idx_column = self.TSV_COLUMNS[8]
+        self.e3_idx_column = self.TSV_COLUMNS[9]
 
         # Some important constants
         self.e1_tag = "<e1>"
@@ -161,11 +161,12 @@ class CorefRelationExtractionDataset(Dataset):
                 )
 
                 # Handle tokenization
+
                 sentence = d[self.sentence_column]
                 tokens = self.tokenize(sentence)
                 del d[self.sentence_column]
 
-                # Indicate the two entities for clarity
+                # Indicate the three entities for clarity
                 d["entity1"] = tokens[e1_idx]
                 d["entity2"] = tokens[e2_idx]
                 d["entity3"] = tokens[e3_idx]
@@ -252,7 +253,7 @@ class CollateCallable:
         )
         labels = torch.tensor(
             [
-                self.label_vocab.get(example["relation"], self.pad_value)
+                self.label_vocab.get(example["answer_person"], self.pad_value)
                 for example in examples
             ]
         )

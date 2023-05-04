@@ -3,7 +3,7 @@ import itertools as it
 import json
 import add_sentences
 import test_stanford_corenlp
-import test_coreferee_spacy
+# import test_coreferee_spacy
 
 import pandas as pd
 from rich import print as pprint
@@ -113,13 +113,14 @@ def main(
         add_positional_encoding=add_positional_encoding,
         add_pos_tags=add_pos_tags,
     )
-    test_set = ds.CorefRelationExtractionDataset(
-        file_path=test_file,
-        truncate=truncate,
-        add_entity_tags=add_entity_tags,
-        add_positional_encoding=add_positional_encoding,
-        add_pos_tags=add_pos_tags,
-    )
+    if test_file:
+        test_set = ds.CorefRelationExtractionDataset(
+            file_path=test_file,
+            truncate=truncate,
+            add_entity_tags=add_entity_tags,
+            add_positional_encoding=add_positional_encoding,
+            add_pos_tags=add_pos_tags,
+        )
 
     pretrained = None
     if embedding_source:  # To handle Glove embeddings
@@ -145,9 +146,10 @@ def main(
     loader_dev = DataLoader(
         dataset=dev_set, batch_size=batch_size, collate_fn=collate_callable
     )
-    loader_test = DataLoader(
-        dataset=test_set, batch_size=batch_size, collate_fn=collate_callable
-    )
+    if test_file:
+        loader_test = DataLoader(
+            dataset=test_set, batch_size=batch_size, collate_fn=collate_callable
+        )
 
     # All vectorized data handled
     data = [(X, y) for (X, y) in loader_train]
@@ -156,11 +158,13 @@ def main(
 
     data_dev = [(X_dev, y_dev) for (X_dev, y_dev) in loader_dev]
     X_dev = collate_callable.pad(flatten([d[0] for d in data_dev]))
+    print("X DEV")
+    print(len(data_dev))
     y_dev = torch.stack(flatten([d[1] for d in data_dev]))
-
-    data_test = [(X_test, y_test) for (X_test, y_test) in loader_test]
-    X_test = collate_callable.pad(flatten([d[0] for d in data_test]))
-    y_test = torch.stack(flatten([d[1] for d in data_test]))
+    if test_file:
+        data_test = [(X_test, y_test) for (X_test, y_test) in loader_test]
+        X_test = collate_callable.pad(flatten([d[0] for d in data_test]))
+        y_test = torch.stack(flatten([d[1] for d in data_test]))
 
 
     if model_name=="dan":
@@ -238,12 +242,19 @@ def main(
         net.fit(X=X, y=y)
         best_model = net
         dev_score = best_model.score(X=X_dev, y=y_dev)
-        test_score = best_model.score(X=X_test, y=y_test)
+        dev_pred = best_model.predict(X=X_dev)
+        print("Dev gold labels:")
+        print(y_dev)
+        print("Dev predicted labels:")
+        print(dev_pred)
+        if test_file:
+            test_score = best_model.score(X=X_test, y=y_test)
 
     pprint(cv_results)
 
     print(f"Dev accuracy: {dev_score}")
-    print(f"Test accuracy: {test_score}")
+    if test_file:
+        print(f"Test accuracy: {test_score}")
 
 
 
