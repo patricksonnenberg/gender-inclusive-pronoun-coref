@@ -1,15 +1,9 @@
-sentence	answer	occupation(0)	other-participant(1)	gender	answer_person	pronoun
-The technician told the customer that he could pay with cash.	1	technician	customer	masculine	customer	he
-The technician told the customer that she could pay with cash.	1	technician	customer	feminine	customer	she
-The technician told the customer that they could pay with cash.	1	technician	customer	neutral_they	customer	they
-The technician told the customer that ze could pay with cash.	1	technician	customer	neutral_ze	customer	ze
-The technician told the customer that xe could pay with cash.	1	technician	customer	neutral_xe	customer	xe
-The technician told the customer that ey could pay with cash.	1	technician	customer	neutral_ey	customer	ey
-The technician told the customer that he had completed the repair.	0	technician	customer	masculine	technician	he
-The technician told the customer that she had completed the repair.	0	technician	customer	feminine	technician	she
-The technician told the customer that they had completed the repair.	0	technician	customer	neutral_they	technician	they
-The technician told the customer that ze had completed the repair.	0	technician	customer	neutral_ze	technician	ze
-The technician told the customer that xe had completed the repair.	0	technician	customer	neutral_xe	technician	xe
-The technician told the customer that ey had completed the repair.	0	technician	customer	neutral_ey	technician	ey
-The taxpayer met with the accountant to get help filing his taxes.	1	accountant	taxpayer	masculine	taxpayer	his
-The taxpayer met with the accountant to get help filing her taxes.	1	accountant	taxpayer	feminine	taxpayer	her
+occupation(0)	other-participant(1)	answer	sentence	gender	answer_person	pronoun	e1_idx	e2_idx	e3_idx	answer_tuple
+technician	customer	1	The technician told the customer that he could pay with cash.	masculine	customer	he	1	4	6	"('1', 'masculine')"
+technician	customer	1	The technician told the customer that she could pay with cash.	feminine	customer	she	1	4	6	"('1', 'feminine')"
+technician	customer	1	The technician told the customer that they could pay with cash.	neutral_they	customer	they	1	4	6	"('1', 'neutral_they')"
+technician	customer	1	The technician told the customer that ze could pay with cash.	neutral_ze	customer	ze	1	4	6	"('1', 'neutral_ze')"
+technician	customer	1	The technician told the customer that xe could pay with cash.	neutral_xe	customer	xe	1	4	6	"('1', 'neutral_xe')"
+technician	customer	1	The technician told the customer that ey could pay with cash.	neutral_ey	customer	ey	1	4	6	"('1', 'neutral_ey')"
+technician	customer	0	The technician told the customer that he had completed the repair.	masculine	technician	he	1	4	6	"('0', 'masculine')"
+technician	customer	0	The technician told the customer that she had completed the repair.	feminine	technician	she	1	4	6	"('0', 'feminine')"

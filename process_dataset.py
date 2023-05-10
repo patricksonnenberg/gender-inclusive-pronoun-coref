@@ -1,14 +1,13 @@
 from nltk.tag import pos_tag
-import functools as ft
 from csv import DictReader
-from pathlib import Path
 from typing import Callable, Optional
+
 import torch
 import torch.nn as nn
 import torchtext as tt
-from torch.utils.data import DataLoader, Dataset, IterableDataset
-from torchtext.vocab import build_vocab_from_iterator, Vectors
-from transformers import AutoModelForSequenceClassification, AutoTokenizer
+from torch.utils.data import Dataset
+from torchtext.vocab import build_vocab_from_iterator
+
 import nltk
 
 nltk.download("averaged_perceptron_tagger")
@@ -17,19 +16,23 @@ TAB = "\t"
 
 
 class CorefRelationExtractionDataset(Dataset):
-    TSV_COLUMNS = ["sentence", "answer", "occupation(0)",
-                   "other-participant(1)", "gender", "answer_person",
-                   "pronoun", "e1_idx", "e2_idx", "e3_idx"]
+    TSV_COLUMNS = [
+        "occupation(0)",
+        "other-participant(1)",
+        "answer",
+        "sentence",
+        "gender",
+        "answer_person",
+        "pronoun",
+        "e1_idx",
+        "e2_idx",
+        "e3_idx",
+        "answer_tuple",
+    ]
 
     def __init__(
         self,
         file_path,
-        # column_names: Optional[list[str]] = None,
-        sentence_column: str = "sentence",
-        relation_column: str = "relation",
-        # e1_idx_column: str = "e1_idx",
-        # e2_idx_column: str = "e2_idx",
-        # e3_idx_column: str = "e3_idx",
         tokenize_fn: Optional[Callable] = None,
         add_entity_tags: bool = False,
         truncate: bool = False,
@@ -39,15 +42,16 @@ class CorefRelationExtractionDataset(Dataset):
         train_dataset: Optional["CorefRelationExtractionDataset"] = None,
     ):
         if not tokenize_fn:
+
             def tokenize(sentence: str) -> list[str]:
                 return sentence.split()
 
-        # Make the input arguments instance variables
+        # Makes the input arguments instance variables
         self.file_path = file_path
         self.column_names = self.TSV_COLUMNS
         self.tokenize = tokenize_fn or tokenize
         self.sentence_column = self.TSV_COLUMNS[3]
-        self.relation_column = self.TSV_COLUMNS[5]
+        self.relation_column = self.TSV_COLUMNS[10]  # E.g. "('1', 'masculine')"
 
         self.add_entity_tags = add_entity_tags
         self.truncate = truncate
@@ -58,7 +62,7 @@ class CorefRelationExtractionDataset(Dataset):
         self.e2_idx_column = self.TSV_COLUMNS[8]
         self.e3_idx_column = self.TSV_COLUMNS[9]
 
-        # Some important constants
+        # Tag constants
         self.e1_tag = "<e1>"
         self.e1_tag_close = "</e1>"
         self.e2_tag = "<e2>"
@@ -84,7 +88,6 @@ class CorefRelationExtractionDataset(Dataset):
             self.vocab = self.train_dataset.vocab
             self.label_vocab = self.train_dataset.label_vocab
 
-
     def get_tsv_reader(self, file_in) -> DictReader:
         """
         Reads in TSV file, returns each row as a dict, where keys are the
@@ -100,7 +103,7 @@ class CorefRelationExtractionDataset(Dataset):
         Removes tokens that appear before token index of e1 and after token
         index of e3.
         """
-        tokens = tokens[e1_idx: (e3_idx + 1)]
+        tokens = tokens[e1_idx : (e3_idx + 1)]
         e1_idx, e3_idx = 0, len(tokens) - 1
         return tokens, e1_idx, e3_idx
 
@@ -112,13 +115,13 @@ class CorefRelationExtractionDataset(Dataset):
         tags.
         """
         tokens = (
-                tokens[:e1_idx]
-                + [self.e1_tag, tokens[e1_idx], self.e1_tag_close]
-                + tokens[(e1_idx + 1): e2_idx]
-                + [self.e2_tag, tokens[e2_idx], self.e2_tag_close]
-                + tokens[(e2_idx + 1): e3_idx]
-                + [self.e3_tag, tokens[e3_idx], self.e3_tag_close]
-                + tokens[(e3_idx + 1):]
+            tokens[:e1_idx]
+            + [self.e1_tag, tokens[e1_idx], self.e1_tag_close]
+            + tokens[(e1_idx + 1) : e2_idx]
+            + [self.e2_tag, tokens[e2_idx], self.e2_tag_close]
+            + tokens[(e2_idx + 1) : e3_idx]
+            + [self.e3_tag, tokens[e3_idx], self.e3_tag_close]
+            + tokens[(e3_idx + 1) :]
         )
         return tokens
 
@@ -135,7 +138,7 @@ class CorefRelationExtractionDataset(Dataset):
         """
         Adds POS tags using NLTK.
         """
-        tagged = pos_tag(tokens, tagset=None, lang='eng')
+        tagged = pos_tag(tokens, tagset=None, lang="eng")
         new_tokens = []
         for tok in tagged:  # NLTK puts them in a tuple, e.g. ('word', POS)
             new_tokens.append(tok[0])
@@ -150,7 +153,7 @@ class CorefRelationExtractionDataset(Dataset):
         """
         with open(self.file_path) as file_in:
             for d in self.get_tsv_reader(file_in):
-                # Handle the entity id conversion
+                # Handles the entity id conversion
                 d[self.e1_idx_column] = int(d[self.e1_idx_column])
                 d[self.e2_idx_column] = int(d[self.e2_idx_column])
                 d[self.e3_idx_column] = int(d[self.e3_idx_column])
@@ -160,13 +163,12 @@ class CorefRelationExtractionDataset(Dataset):
                     d[self.e3_idx_column],
                 )
 
-                # Handle tokenization
-
+                # Handles tokenization
                 sentence = d[self.sentence_column]
                 tokens = self.tokenize(sentence)
                 del d[self.sentence_column]
 
-                # Indicate the three entities for clarity
+                # Indicates the three entities for clarity
                 d["entity1"] = tokens[e1_idx]
                 d["entity2"] = tokens[e2_idx]
                 d["entity3"] = tokens[e3_idx]
@@ -198,8 +200,8 @@ class CorefRelationExtractionDataset(Dataset):
     @property
     def relations(self):
         """
-        Returns iterator object that generates values of relation column attribute
-        from each dict yielded by the iterator
+        Returns iterator object that generates values of relation column
+        attribute from each dict yielded by the iterator
         """
         it = iter(self)
         for d in it:
@@ -208,8 +210,8 @@ class CorefRelationExtractionDataset(Dataset):
     @property
     def tokens(self):
         """
-        Returns iterator object that generates values of the tokens key from each
-        dict yielded by the iterator.
+        Returns iterator object that generates values of the tokens key
+        from each dict yielded by the iterator.
         """
         it = iter(self)
         for d in it:
@@ -218,13 +220,13 @@ class CorefRelationExtractionDataset(Dataset):
 
 class CollateCallable:
     """
-    An alternative to a collate_fn to make it a little bit more modular.
+    An alternative to a collate_fn to make it more modular.
     """
 
     def __init__(
         self,
-        vocab: tt.vocab.Vocab,  # Map tokens to integers
-        label_vocab: dict,  # Map labels to integers
+        vocab: tt.vocab.Vocab,  # Maps tokens to integers
+        label_vocab: dict,  # Maps labels to integers
         pad_value: int = 0,
     ):
         self.vocab = vocab
@@ -253,26 +255,8 @@ class CollateCallable:
         )
         labels = torch.tensor(
             [
-                self.label_vocab.get(example["answer_person"], self.pad_value)
+                self.label_vocab.get(example["answer_tuple"], self.pad_value)
                 for example in examples
             ]
         )
         return token_indices, labels
-
-
-# class BERTClassifier(nn.Module):
-#     def __init__(self, name, num_labels, dr):
-#         super().__init__()
-#         self.name = name
-#         self.dropout = nn.Dropout(dr)
-#         self.num_labels = num_labels
-#         self.reset_weights()
-#
-#     def reset_weights(self):
-#         self.bert = AutoModelForSequenceClassification.from_pretrained(
-#             self.name, num_labels=self.num_labels
-#         )
-#
-#     def forward(self, **kwargs):
-#         pred = self.bert(**kwargs)
-#         return self.dropout(pred.logits)
