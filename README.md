@@ -18,6 +18,10 @@ following:
 8. Evaluates the results
 
 
+<br />
+
+
+
 ### 🧑‍💻 Running the Code 🧑‍💻
 Simply run the code from the terminal. All flags are found in `main.py`. At 
 minimum, it's required to provide a train file, dev file, and a model name. 
