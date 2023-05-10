@@ -155,7 +155,9 @@ entities with tags, adding positional encoding, and adding POS tags.
 
 ### Step 6: Add word embeddings
 Note: the embeddings will need to be downloaded separately. The line to 
-download FastText is found at the top of `main.py`.
+download FastText is found at the top of `main.py`. 
+
+GloVe embeddings can be downloaded [here](https://nlp.stanford.edu/projects/glove/).
 
 `glove/{embeddings}` is where the GloVe embeddings should be saved. The 
 code can handle 50d, 100d, 200d, and 300d embeddings. 
