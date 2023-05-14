@@ -48,14 +48,14 @@ data_split/dev_all_six.tsv --max-epochs 20 --model-name lstm
 
 <br />
 
-### Step 1: Examining Gender
+### Step 1: 🔎 Examining gender 🔎
 `coreference_resolution_paper.pdf` defines gender and examines gender in 
 coreference resolution 
 research. It also describes the entire study and contains all results. 
 
 <br />
 
-### Step 2: Create Dataset
+### Step 2: 🗂 Create dataset 🗂
 Note: to reproduce this step, one must download the templates from the link 
 below.
 
@@ -106,7 +106,7 @@ files upon request.
 
 <br />
 
-### Step 3: Test performance on existing coreference models
+### Step 3: 📊 Test performance on existing coreference models 📊
 `test_stanford_corenlp.py` runs each sentence through the CoreNLP server to 
 obtain the coreferences, which are returned. The code obtains the output 
 and compares it to the gold label. 
@@ -128,7 +128,7 @@ gold label, and one for the sentence itself.
 <br />
 
 
-### Step 4: Build new models
+### Step 4: 🏗 Build new models 🏗
 `models.py` builds three models: LSTM, CNN, and RNN. The LSTM class also 
 handles bidirectional LSTMs (BiLSTM), which I consider to be a separate 
 model. These classes are called from `main.py`.
@@ -145,7 +145,7 @@ Percent Correct for Each Pronoun:  {'masculine': 0.5417, 'feminine': 0.5833, 'ne
 <br />
 
 
-### Step 5: Add features and hyperparameters
+### Step 5: 👷 Add features and hyperparameters 👷
 `process_dataset.py` reads in and iterates over the data and processes it 
 appropriately, and it can handle truncating the tokens, surrounding the 
 entities with tags, adding positional encoding, and adding POS tags. 
@@ -153,7 +153,7 @@ entities with tags, adding positional encoding, and adding POS tags.
 <br />
 
 
-### Step 6: Add word embeddings
+### Step 6: 💬 Add word embeddings 💬
 Note: the embeddings will need to be downloaded separately. The line to 
 download FastText is found at the top of `main.py`. 
 
@@ -168,7 +168,7 @@ command to do so is found at the top of `main.py`.
 
 <br />
 
-### Step 7: Perform experiments
+### Step 7: 🧪 Perform experiments 🧪
 `test_gpt.py` was used to try and prompt OpenAI's GPT with this task, but 
 it performed too poorly, and often only contained garbage output. 
 
@@ -192,7 +192,7 @@ accuracy scores on the dev set.
 <br />
 
 
-### Step 8: Evaluate results
+### Step 8: 📋 Evaluate results 📋
 `coreference_resolution_paper.pdf` contains the results. 
 
 The experiments show that more inclusive training data leads to better 
